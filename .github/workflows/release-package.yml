@@ -1,0 +1,53 @@
+name: Build installable Skill package
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the released version
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+
+      - name: Build and verify the Skill ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="${GITHUB_REPOSITORY#*/}"
+          mkdir -p dist
+          git archive \
+            --format=zip \
+            --prefix="${repo}/" \
+            --output="dist/${repo}.zip" \
+            "${{ github.event.release.tag_name }}"
+
+          unzip -Z1 "dist/${repo}.zip" | grep -qx "${repo}/SKILL.md"
+          unzip -Z1 "dist/${repo}.zip" | grep -qx "${repo}/agents/openai.yaml"
+          unzip -Z1 "dist/${repo}.zip" | grep -qx "${repo}/scripts/compose_panel.py"
+          unzip -Z1 "dist/${repo}.zip" | grep -qx "${repo}/scripts/configured_imagegen.py"
+          if unzip -Z1 "dist/${repo}.zip" | grep -Eq '(^|/)(\.git|\.github|\.DS_Store)(/|$)'; then
+            echo "Release package contains a development-only path." >&2
+            exit 1
+          fi
+
+          cd dist
+          sha256sum "${repo}.zip" > SHA256SUMS.txt
+
+      - name: Attach package and checksum to the Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release upload \
+            "${{ github.event.release.tag_name }}" \
+            "dist/${GITHUB_REPOSITORY#*/}.zip" \
+            dist/SHA256SUMS.txt \
+            --clobber

@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-panel-100"
+  short_description: "Create Panel 100 from images or a directory batch."
+  default_prompt: "Use $xxd-panel-100; accept one image or an image directory, keep the body of its bundled original style brief as the sole aesthetic authority, resolve shared batch settings once, isolate every source, send exactly one mode-specific delivery contract per asset, keep one flat task directory, make design-only and wallpaper outputs fully transformed, and ground factual-looking copy in supplied or verified facts."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">XXD Panel 100</title><desc id="desc">Flat vector mascot illustration, bold clean outlines, rounded geometry, limited source-derived colours, oversized typography, sticker-style brand campaign.</desc>
+<rect width="1200" height="420" fill="#fff4d6"/>
+<g stroke="#191817" fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="64" y="64" width="300" height="220"/><path d="M96 238h226M96 208h112l34-58 48 88 28-35"/>
+ <circle cx="212" cy="132" r="34"/><path d="M170 132h84M212 90v84"/>
+ <path d="M430 92h186M430 132h142M430 172h186M430 212h108"/>
+ <path d="M712 96l74 44-74 44-74-44z"/><path d="M712 96v88M638 140h148"/>
+ <path d="M850 92h270M850 136h220M850 180h270M850 224h180"/>
+ <path d="M850 290h270"/>
+</g>
+<g fill="#ef5b45"><circle cx="292" cy="238" r="13"/><path d="M654 270h94l-47 56z"/><rect x="1048" y="270" width="72" height="48"/></g>
+<g fill="#191817" font-family="Arial, sans-serif"><text x="64" y="365" font-size="44" font-weight="700" letter-spacing="6">XXD PANEL 100</text><text x="850" y="350" font-size="18" letter-spacing="3">MAKE IT A CHARACTER</text></g>
+</svg>
