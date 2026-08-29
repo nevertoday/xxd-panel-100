@@ -1,3 +1,6 @@
 .github export-ignore
+assets/examples export-ignore
+assets/banner.svg export-ignore
+README*.md export-ignore
 .gitignore export-ignore
 .gitattributes export-ignore
