@@ -335,7 +335,7 @@ Use this photograph, ask me for the modes and copy setting, then generate fresh 
 | **[xxd-panel-095](https://github.com/nevertoday/xxd-panel-095)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
 | **[xxd-panel-096](https://github.com/nevertoday/xxd-panel-096)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
 | **[xxd-panel-097](https://github.com/nevertoday/xxd-panel-097)** | Mid-century vernacular commercial graphic · schematic line drawing · two-colour spot printing · functional humour |
-| **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | Flat Vector Mascot · bold black outline · rounded geometry · exaggerated proportions · oversized typography · 2–4 colour brand system |
+| **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | 稚拙民艺叙事 · primitive forms · 平面空间 · 蜡笔颗粒 · 暖白纸面 · 鲜活限制色 · 民艺编辑文字 |
 <!-- xxd-panel-catalog:end -->
 
 ## 关于 XXD

@@ -332,7 +332,7 @@ Use this photograph, ask me for the modes and copy setting, then generate fresh 
 | **[xxd-panel-095](https://github.com/nevertoday/xxd-panel-095)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
 | **[xxd-panel-096](https://github.com/nevertoday/xxd-panel-096)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
 | **[xxd-panel-097](https://github.com/nevertoday/xxd-panel-097)** | Mid-century vernacular commercial graphic · schematic line drawing · two-colour spot printing · functional humour |
-| **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | Flat Vector Mascot · bold black outline · rounded geometry · exaggerated proportions · oversized typography · 2–4 colour brand system |
+| **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | سرد شعبي فطري · أشكال بدائية · فضاء مسطح · حبيبات الشمع · ورق دافئ · ألوان محدودة حية · حروف تحريرية شعبية |
 <!-- xxd-panel-catalog:end -->
 
 ## عن XXD
@@ -351,7 +351,7 @@ XXD هو اختصار اسم علامة Xiaoxiaodong. أنشأ المشروع و
 | المستوى | Skill | المسؤولية |
 |---|---|---|
 | **الجنرال** | [`xxd-panel-all`](https://github.com/nevertoday/xxd-panel-all) | اكتشاف Skills المرقمة المتاحة، والتوصية حسب الصورة أو الموضوع أو الاستخدام، واستدعاء رقم محدد، وتنظيم تجارب متعددة الأساليب، وتوزيع صور المجلد على مهام منفصلة. |
-| **الجنود** | `xxd-panel-NNN` (حالياً 001–098) | تنفذ كل مهارة مرقمة موجّهها الأصلي وجماليتها الخاصة فقط، وتنجز المهمة الفردية التي يرسلها الجنرال. |
+| **الجنود** | `xxd-panel-NNN` (حالياً 001–100) | تنفذ كل مهارة مرقمة موجّهها الأصلي وجماليتها الخاصة فقط، وتنجز المهمة الفردية التي يرسلها الجنرال. |
 
 مهارة الجنرال هي مركز قيادة فريق Skills المرقمة بأكمله. يتيحها الشراء فوراً مع دعم التثبيت والتحديث وتكوين الفريق وأساليب التوزيع. ينظم الجنرال ويوزع فقط؛ ولا يعيد كتابة جمالية الجندي الأصلية أو يخلطها أو يتجاوزها. وتبقى كل نتيجة من تنفيذ مهارة الجندي المختارة بصورة مستقلة.
 <!-- xxd-panel-command-system:end -->
