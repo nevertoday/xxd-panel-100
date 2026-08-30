@@ -22,6 +22,13 @@
 | ![sample-05](assets/examples/sample-05.png) | ![sample-06](assets/examples/sample-06.png) |
 | ![sample-07](assets/examples/sample-07.png) | ![sample-08](assets/examples/sample-08.png) |
 
+**3:4 竖版上下样张**
+
+| sample-09 | sample-10 |
+|---|---|
+| ![sample-09](assets/examples/sample-09.png) | ![sample-10](assets/examples/sample-10.png) |
+| ![sample-11](assets/examples/sample-11.png) | ![sample-12](assets/examples/sample-12.png) |
+
 
 样张区按两组保留：`sample-05`–`sample-08` 为四张独立的 16:9 横版左右构图（1536×864），`sample-09`–`sample-12` 为四张独立的 3:4 竖版上下构图（1536×2048）。它们必须直接依据 100 的原始提示词生成；当前尚未放入实际位图，不会借用其他编号的图片或用 SVG 冒充。
 
