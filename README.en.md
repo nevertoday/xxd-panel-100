@@ -380,6 +380,8 @@ The General Skill is the command center for the entire numbered-Skill roster. Yo
 
 ## Support this open-source project
 
+> **Advertising disclosure:** QR codes and paid membership/service links in this section are XXD promotional content. Scanning or purchasing is optional and does not affect access to this open-source project.
+
 If this project helps you, you’re welcome to support it through Buy Me a Coffee—entirely optional.
 
 
