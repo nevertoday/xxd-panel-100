@@ -356,7 +356,11 @@ Use this photograph, ask me for the modes and copy setting, then generate fresh 
 
 XXD 是小小东品牌名的缩写，本项目由小小东创建并维护： [@xiaoxiaodong01](https://x.com/xiaoxiaodong01).
 
-## 支持与会员
+## 广告信息｜XXD 付费服务与会员
+
+> **广告与商业信息声明：** 以下二维码、会员与付费服务链接属于小小东的广告信息。是否扫码或购买完全自愿，不影响本开源项目的访问与使用。
+
+
 
 ### 小小东总控 · 将军总指挥 Skill · 100 元
 
