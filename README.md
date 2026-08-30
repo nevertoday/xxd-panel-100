@@ -30,7 +30,7 @@
 | ![sample-11](assets/examples/sample-11.png) | ![sample-12](assets/examples/sample-12.png) |
 
 
-样张区按两组保留：`sample-05`–`sample-08` 为四张独立的 16:9 横版左右构图（1536×864），`sample-09`–`sample-12` 为四张独立的 3:4 竖版上下构图（1536×2048）。它们必须直接依据 100 的原始提示词生成；当前尚未放入实际位图，不会借用其他编号的图片或用 SVG 冒充。
+样张区按两组保留：`sample-05`–`sample-08` 为四张独立的 16:9 横版左右构图，`sample-09`–`sample-12` 为四张独立的 3:4 竖版上下构图。两组实际 PNG 均已放入本目录，并直接依据 Panel 100 的原始提示词生成；不会借用其他编号的图片或用 SVG 冒充。
 
 <!-- xxd-human-intro:start -->
 ## 适用场景与解决的问题
