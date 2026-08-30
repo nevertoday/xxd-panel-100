@@ -16,7 +16,7 @@
 
 ## Samples
 
-Sample positions are reserved. Verifiable original works or extensions reviewed directly against the Panel 100 source brief will be shown here first; images from another numbered Panel and broken placeholders are never substituted.
+The sample area is reserved in two verified sets: `sample-05`–`sample-08` are four independent 16:9 horizontal left-right compositions (`1536×864`), and `sample-09`–`sample-12` are four independent 3:4 vertical top-bottom compositions (`1536×2048`). Each must be generated directly from the Panel 100 source brief; actual raster samples are not bundled yet, and no other Panel or SVG placeholder will be substituted.
 
 <!-- xxd-human-intro:start -->
 ## What it solves
