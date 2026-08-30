@@ -15,6 +15,13 @@
 </div>
 
 ## النماذج
+النماذج التي تم التحقق منها (نص إنجليزي ذكي):
+
+| sample-05 | sample-06 |
+|---|---|
+| ![sample-05](assets/examples/sample-05.png) | ![sample-06](assets/examples/sample-06.png) |
+| ![sample-07](assets/examples/sample-07.png) | ![sample-08](assets/examples/sample-08.png) |
+
 
 تُدار النماذج في مجموعتين: `sample-05`–`sample-08` أربع لوحات أفقية مستقلة 16:9 ‏(1536×864)، و`sample-09`–`sample-12` أربع لوحات عمودية مستقلة 3:4 ‏(1536×2048). يجب توليدها مباشرة من موجّه Panel 100؛ الصور النقطية الفعلية غير مضمّنة بعد، ولن تُستبدل بصور رقم آخر أو SVG.
 

@@ -15,6 +15,13 @@
 </div>
 
 ## 作例
+検証済み作例（英語の自動コピー）：
+
+| sample-05 | sample-06 |
+|---|---|
+| ![sample-05](assets/examples/sample-05.png) | ![sample-06](assets/examples/sample-06.png) |
+| ![sample-07](assets/examples/sample-07.png) | ![sample-08](assets/examples/sample-08.png) |
+
 
 作例は二組で管理します。`sample-05`–`sample-08` は 1536×864 の独立した16:9左右構図、`sample-09`–`sample-12` は 1536×2048 の独立した3:4上下構図です。すべて100の原文から直接生成し、現在は実画像未収録です。別番号の画像やSVGで代用しません。
 

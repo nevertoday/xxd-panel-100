@@ -15,6 +15,13 @@
 </div>
 
 ## Samples
+Verified samples (English intelligent copy):
+
+| sample-05 | sample-06 |
+|---|---|
+| ![sample-05](assets/examples/sample-05.png) | ![sample-06](assets/examples/sample-06.png) |
+| ![sample-07](assets/examples/sample-07.png) | ![sample-08](assets/examples/sample-08.png) |
+
 
 The sample area is reserved in two verified sets: `sample-05`–`sample-08` are four independent 16:9 horizontal left-right compositions (`1536×864`), and `sample-09`–`sample-12` are four independent 3:4 vertical top-bottom compositions (`1536×2048`). Each must be generated directly from the Panel 100 source brief; actual raster samples are not bundled yet, and no other Panel or SVG placeholder will be substituted.
 
