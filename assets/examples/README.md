@@ -14,6 +14,6 @@ Panel's output must never be used as a substitute.
 
 Panel 100 samples are generated independently from this Panel canonical prompt.
 
-- sample-05–sample-08: 16:9 horizontal left-right (`1672×941`; reality view left, transformed design right).
-- sample-09–sample-12: 3:4 vertical top-bottom will be added after the vertical batch completes.
+- sample-05–sample-08: 16:9 horizontal left-right (1672×941; reality view left, transformed design right).
+- sample-09–sample-12: 3:4 vertical top-bottom (1086×1448; reality view above, transformed design below).
 - English intelligent copy requested; no workflow labels or cross-Panel images.
