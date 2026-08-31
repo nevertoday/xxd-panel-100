@@ -1,19 +1,17 @@
 # XXD Panel 100 samples
 
-This directory is the verified sample manifest for Panel 100. The source
-photographs are never copied into finished artwork, and another numbered
-Panel's output must never be used as a substitute.
+This directory contains the reviewed extension samples displayed by all five localized project READMEs.
 
-- `sample-01`–`sample-04` are reserved for verifiable original works and their source post.
-- `sample-05`–`sample-08` are four independent **16:9 horizontal** compositions (`1536×864`). Each is one complete canvas with the reality view on the left and Panel 100's transformed design on the right; no mechanical crop or programmatic split is accepted.
-- `sample-09`–`sample-12` are four independent **3:4 vertical** compositions (`1536×2048`). Each is one complete canvas with the reality view above and Panel 100's transformed design below; no mechanical crop or programmatic split is accepted.
-- Every extension must be generated directly from `references/original-prompt/zh-CN.md` and documented with its own source mapping, text-language choice, and generation date before it is linked from a README.
-- Until those eight reviewed raster files exist, the positions remain intentionally empty; an SVG banner, placeholder, or image from another numbered Panel does not count as a sample.
+## Original release slots
 
-## Verified generated samples
+- `sample-01`–`sample-04` remain reserved for verifiable original release works and their source post.
+- Generated extensions are identified separately and are never presented as original release samples.
 
-Panel 100 samples are generated independently from this Panel canonical prompt.
+## Reviewed extension samples
 
-- sample-05–sample-08: 16:9 horizontal left-right (1672×941; reality view left, transformed design right).
-- sample-09–sample-12: 3:4 vertical top-bottom (1086×1448; reality view above, transformed design below).
-- English intelligent copy requested; no workflow labels or cross-Panel images.
+- `sample-05`–`sample-08`: four 16:9 landscape left–right works (1672×941 PNG); the reality view is on the left and Panel 100's transformed design is on the right.
+- `sample-09`–`sample-12`: four approximately 3:4 portrait top–bottom works (nominally 1086×1448 PNG); the reality view is above and Panel 100's transformed design is below.
+- Each work was generated independently from Panel 100's canonical prompt, uses intelligent English copy, and was reviewed for the correct comparison direction.
+- No artwork from another numbered Panel, broken placeholder, or banner is accepted as a sample.
+
+Canonical authority: `../../references/original-prompt/zh-CN.md`.

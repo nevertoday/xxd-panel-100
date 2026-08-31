@@ -14,8 +14,9 @@
 
 </div>
 
-## 样张
-已核验样张（英文智能配字）：
+## 样张展示
+
+**16:9 横版左右样张**
 
 | sample-05 | sample-06 |
 |---|---|
@@ -29,8 +30,7 @@
 | ![sample-09](assets/examples/sample-09.png) | ![sample-10](assets/examples/sample-10.png) |
 | ![sample-11](assets/examples/sample-11.png) | ![sample-12](assets/examples/sample-12.png) |
 
-
-样张区按两组保留：`sample-05`–`sample-08` 为四张独立的 16:9 横版左右构图，`sample-09`–`sample-12` 为四张独立的 3:4 竖版上下构图。两组实际 PNG 均已放入本目录，并直接依据 Panel 100 的原始提示词生成；不会借用其他编号的图片或用 SVG 冒充。
+`sample-01`–`sample-04` 保留给未来可核验的原始发布样张。以上八张包括四张 16:9 横版左右样张和四张 3:4 竖版上下样张，均由 Panel 100 依据自己的原始提示词独立生成，不借用其他编号作品。样张使用英文智能配字。
 
 <!-- xxd-human-intro:start -->
 ## 适用场景与解决的问题

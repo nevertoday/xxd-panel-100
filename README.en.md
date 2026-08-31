@@ -14,16 +14,23 @@
 
 </div>
 
-## Samples
-Verified samples (English intelligent copy):
+## Sample gallery
+
+**16:9 landscape left–right samples**
 
 | sample-05 | sample-06 |
 |---|---|
 | ![sample-05](assets/examples/sample-05.png) | ![sample-06](assets/examples/sample-06.png) |
 | ![sample-07](assets/examples/sample-07.png) | ![sample-08](assets/examples/sample-08.png) |
 
+**3:4 portrait top–bottom samples**
 
-The sample area is reserved in two verified sets: `sample-05`–`sample-08` are four independent 16:9 horizontal left-right compositions (`1536×864`), and `sample-09`–`sample-12` are four independent 3:4 vertical top-bottom compositions (`1536×2048`). Each must be generated directly from the Panel 100 source brief; actual raster samples are not bundled yet, and no other Panel or SVG placeholder will be substituted.
+| sample-09 | sample-10 |
+|---|---|
+| ![sample-09](assets/examples/sample-09.png) | ![sample-10](assets/examples/sample-10.png) |
+| ![sample-11](assets/examples/sample-11.png) | ![sample-12](assets/examples/sample-12.png) |
+
+`sample-01`–`sample-04` remain reserved for verifiable original release samples. The eight works above comprise four 16:9 landscape left–right samples and four 3:4 portrait top–bottom samples. Every work was generated independently by Panel 100 from its own original brief; no artwork from another numbered Panel is reused. The samples use intelligent English copy.
 
 <!-- xxd-human-intro:start -->
 ## What it solves
@@ -32,10 +39,10 @@ The sample area is reserved in two verified sets: `sample-05`–`sample-08` are 
 
 ### Best for
 
-- simplifying a photograph without losing its emotional and narrative core;
-- lively source-derived colour, imperfect hand-made marks, and clear paper breathing space;
-- whimsical subjects, everyday memories, cultural stories, and gentle visual humour;
-- top-bottom, left-right, design-only, multi-ratio, wallpaper, and directory-batch delivery.
+- reducing a photograph to its memorable subject, action, and relationship without losing the story;
+- primitive silhouettes, flattened perspective, and tactile crayon, oil-pastel, or coarse-pencil grain;
+- bright source-derived limited colour, folk symbols, and warm paper breathing space;
+- top-bottom, left-right, design-only, multi-ratio, wallpaper, and directory-batch delivery;
 
 ### Quick start
 
