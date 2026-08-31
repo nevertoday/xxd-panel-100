@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 100
+# 🦁 XXD Panel 100｜民艺叙事画
 
 ### 把照片提炼成有颗粒、有生活感的稚拙民艺叙事
 

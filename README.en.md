@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 100
+# 🦁 XXD Panel 100｜Folk-Craft Narrative Painting
 
 ### Turn a photograph into tactile, naïve folk narrative art
 

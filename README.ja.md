@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 100
+# 🦁 XXD Panel 100｜民芸物語絵
 
 ### 写真を粒子と生活感のある稚拙な民藝物語へ
 

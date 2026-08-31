@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 100
+# 🦁 XXD Panel 100｜민예 서사화
 
 ### 사진을 입자와 생활감이 있는 소박한 민예 서사로 바꿉니다
 
