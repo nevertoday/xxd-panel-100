@@ -1,5 +1,3 @@
-<p align="center"><img src="./assets/banner.svg" alt="لافتة مشروع XXD Panel 100" width="1200"></p>
-
 <div align="center">
 
 # 🦁 XXD Panel 100｜لوحة سردية من الفنون الشعبية
