@@ -392,3 +392,16 @@ CNY 100 の一回払いで、このシリーズの将軍総指揮 Skill（`xxd-p
 <p align="center"><a href="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true"><img src="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true" alt="Buy Me a Coffee" width="180"></a></p>
 
 </div>
+
+## ライセンス
+
+本プロジェクト（Skill、プロンプト、スクリプト、ドキュメント、付属サンプルを含む）は **PolyForm Noncommercial License 1.0.0** で提供されます。完全な法的条文は [LICENSE](LICENSE) に、公式ページは <https://polyformproject.org/licenses/noncommercial/1.0.0> にあります。
+
+かんたんに言うと：
+
+- 個人の学習・研究・実験・テスト・趣味・私的な娯楽に利用できます。慈善団体、教育機関、公的な研究／安全／保健機関、環境保護団体、政府機関も利用できます。
+- **非営利目的**であれば、使用、複製、改変、派生物の作成、共有ができます。共有時は、このライセンス（または上記 URL）と、作者が示したすべての `Required Notice:` 行を添えてください。
+- 商用製品・サービス、対価を受ける納品、アクセス権やライセンスの販売、商用利用を予定した用途は禁止です。商用利用には著作権者から別途書面で許可を得てください。
+- 明記された著作権と限定的な特許権だけが許諾されます。商標・ブランド名など、明記されていない権利は与えられず、ライセンスの再許諾・譲渡もできません。
+- 違反の書面通知を受けた場合、32 日以内に完全な遵守と実際の是正を行わなければライセンスは終了します。特許侵害を主張する書面を提出した場合も特許ライセンスは終了します。
+- 本プロジェクトは**現状有姿**で提供され、法律の許す範囲で保証はありません。利用と結果のリスクは利用者が負います。
