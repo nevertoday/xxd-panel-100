@@ -4,9 +4,6 @@
 
 ### 사진을 입자와 생활감이 있는 소박한 민예 서사로 바꿉니다
 
-[![Codex Skill](https://img.shields.io/badge/Codex-Skill-000000?style=flat-square)](./SKILL.md)
-[![Modes](https://img.shields.io/badge/Modes-4-EF805E?style=flat-square)](#)
-[![Output](https://img.shields.io/badge/Output-PNG-4AA1AE?style=flat-square)](#)
 
 <a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <strong>한국어</strong> · <a href="README.ar.md">العربية</a>
 
@@ -28,7 +25,7 @@
 | ![sample-09](assets/examples/sample-09.png) | ![sample-10](assets/examples/sample-10.png) |
 | ![sample-11](assets/examples/sample-11.png) | ![sample-12](assets/examples/sample-12.png) |
 
-`sample-01`–`sample-04`는 검증 가능한 원본 공개 예시를 위해 남겨 둡니다. 위 여덟 작품은 16:9 가로형 좌우 구성 네 장과 3:4 세로형 상하 구성 네 장입니다. 모두 Panel 100이 자체 원본 프롬프트에 따라 독립적으로 생성했으며 다른 번호의 작품을 재사용하지 않았습니다. 예시 문구는 영어로 자동 생성했습니다.
+위 여덟 작품은 16:9 가로형 좌우 구성 네 장과 3:4 세로형 상하 구성 네 장입니다. 모두 Panel 100이 자체 원본 프롬프트에 따라 독립적으로 생성했으며 다른 번호의 작품을 재사용하지 않았습니다. 예시 문구는 영어로 자동 생성했습니다.
 
 <!-- xxd-human-intro:start -->
 ## 이 스타일이 해결하는 문제
@@ -258,7 +255,7 @@ Use this photograph, ask me for the modes and copy setting, then generate fresh 
 <!-- xxd-panel-catalog:start -->
 ## XXD Panel 전체 프로젝트 목록
 
-100개 Panel은 각각 독립된 원본 프롬프트와 미적 논리를 유지합니다. 아래 표에는 001부터 100까지 빠짐없이 나열하며 현재 프로젝트는 굵게 표시합니다.
+현재 XXD Panel 시리즈는 001–112까지 업데이트되었으며, 각 Panel은 독립된 원본 프롬프트와 미적 논리를 유지합니다. 아래 표는 이 프로젝트 공개 시점의 과거 목록으로 001–100을 연속해서 나열하며, 현재 프로젝트는 굵게 표시합니다.
 
 | 프로젝트 | 스타일 특징 |
 |---|---|
@@ -380,7 +377,7 @@ CNY 100을 한 번 결제하면 이 시리즈의 장군 총지휘 Skill(`xxd-pan
 | 등급 | Skill | 역할 |
 |---|---|---|
 | **장군급** | [`xxd-panel-all`](https://github.com/nevertoday/xxd-panel-all) | 사용 가능한 번호형 Skills 탐지, 이미지·주제·용도별 추천, 번호 지정 파견, 동일 입력의 여러 스타일 시안, 이미지 폴더의 일괄 배정과 개별 작업 파견. |
-| **병사급** | `xxd-panel-NNN` (현재 001–100) | 각 번호가 고유한 원본 프롬프트와 미학만 실행해 장군이 배정한 하나의 작업을 완성합니다. |
+| **병사급** | `xxd-panel-NNN` (현재 001–112) | 각 번호가 고유한 원본 프롬프트와 미학만 실행해 장군이 배정한 하나의 작업을 완성합니다. |
 
 장군 Skill은 번호형 Skills 전체 부대의 지휘 본부입니다. 구매 후 바로 사용할 수 있으며 설치, 버전 업데이트, 병력 구성, 파견 흐름에 대한 도움을 받을 수 있습니다. 장군은 조직과 파견만 담당하며 병사의 원본 미학을 다시 쓰거나 섞거나 덮어쓰지 않습니다. 각 결과물은 선택된 병사 Skill이 독립적으로 완성합니다.
 <!-- xxd-panel-command-system:end -->
