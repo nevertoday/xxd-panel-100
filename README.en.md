@@ -258,7 +258,7 @@ Full specifications: [Skill workflow](SKILL.md) · [source archive](references/o
 <!-- xxd-panel-catalog:start -->
 ## Complete XXD Panel catalog
 
-Each of the 60 Panels preserves its own original brief and aesthetic logic. The table lists every project address and its defining style characteristics; the current project is bold.
+Each of the 100 Panels preserves its own original brief and aesthetic logic. The table continuously lists every project from 001 through 100 with its defining style characteristics; the current project is bold.
 
 | Project | Style characteristics |
 |---|---|
@@ -335,25 +335,33 @@ Each of the 60 Panels preserves its own original brief and aesthetic logic. The 
 | [xxd-panel-071](https://github.com/nevertoday/xxd-panel-071) | SOFT PASTEL · PASTEL CRAYON · SOLUBLE PENCIL · NEAR-WHITE PAPER · FLOATING MEMORIES · POETIC HANDWRITING |
 | [xxd-panel-072](https://github.com/nevertoday/xxd-panel-072) | TRANSLUCENT FROSTED WINDOWS · REGIONAL SOFT FOCUS · MINIMAL GEOMETRY · RECOGNISABLE SILHOUETTE · MODERN TYPE |
 | [xxd-panel-073](https://github.com/nevertoday/xxd-panel-073) | ISOMETRIC MINIATURE ARCHITECTURE · CUT CUBE · CONTINENTAL-SHELF SECTION · RATIONAL SCAFFOLDING · TEXTURED PAPER |
-| **[xxd-panel-074](https://github.com/nevertoday/xxd-panel-074)** | STANDARD ROUNDED SQUARE · FRONT PSEUDO-3D／2.5D · SOURCE-SOUL EXTRACTION · MATTE SCULPTURE · BRAND ICON |
-| **[xxd-panel-075](https://github.com/nevertoday/xxd-panel-075)** | DARK CRAYON · IVORY HANDMADE PAPER · SOFT IRREGULAR FIELD · RISOGRAPH GRAIN · WHITESPACE · PRIVATE TYPEWRITER NOTE |
-| **[xxd-panel-076](https://github.com/nevertoday/xxd-panel-076)** | ROUGH DARK CRAYON · CHARCOAL · BRIGHT MACARON BLOCKS · 45% CONTINUOUS WHITESPACE · NATURAL PAPER · OBSERVATION NOTES |
-| **[xxd-panel-077](https://github.com/nevertoday/xxd-panel-077)** | MINIMAL PAPER SCULPTURE · CLEAR CUT-PAPER CONTOUR · LAYERED PLANES · SOFT SHADOW · HUMANIST MACARON · TRAVEL EDITORIAL |
-| **[xxd-panel-078](https://github.com/nevertoday/xxd-panel-078)** | IVORY COTTON PAPER · DEEP DEBOSS · RECESSED CHAMPAGNE FOIL · FINE-LINE MARK · BLIND PRESSURE · UNDERSTATED LUXURY |
-| **[xxd-panel-079](https://github.com/nevertoday/xxd-panel-079)** | GEOMETRIC STRAIGHTS · FREE ORGANIC CURVES · PEN AND WASH · UNFINISHED QUALITY · BROAD PAPER WHITE · EDITORIAL TYPE |
-| **[xxd-panel-080](https://github.com/nevertoday/xxd-panel-080)** | SOFT ORGANIC GEOMETRY · DIGITAL GOUACHE · CRAYON GRAIN · BOTANICAL COLOUR · SOURCE-BORN METAPHOR · EMOTIONAL SPACE |
-| **[xxd-panel-081](https://github.com/nevertoday/xxd-panel-081)** | EVEN-WEIGHT COLOURED MONOLINE · OPEN CONTOUR · DENSITY HIERARCHY · 2–4 SPOT INKS · RISOGRAPH GRAIN · KEEPSAKE NARRATIVE |
-| **[xxd-panel-082](https://github.com/nevertoday/xxd-panel-082)** | IRREGULAR WATERCOLOUR FIELD · NAÏVE + WONKY · ISOMETRIC／2.5D · CHILDLIKE CONTOUR · VIVID COLOUR · SPATIAL PROTAGONIST |
-| **[xxd-panel-083](https://github.com/nevertoday/xxd-panel-083)** | UGLY-CUTE DOODLE · WONKY TREMBLING CONTOUR · CONTROLLED WRONGNESS · ONE COMIC PROTAGONIST · ROUGH CRAYON · SPARSE-STRANGE-CLUMSY-ACCURATE |
-| **[xxd-panel-084](https://github.com/nevertoday/xxd-panel-084)** | MINIMAL URBAN LINEWORK · GEOMETRIC SCAFFOLD · DENSITY-BASED STIPPLING · LEADING LINES · RESTRAINED COLOUR · POETIC WHITESPACE |
-| **[xxd-panel-085](https://github.com/nevertoday/xxd-panel-085)** | HANDMADE MINIATURE STAGE · COLLECTIBLE DIMENSIONAL COVER · CLAY AND FELT · CUT PAPER AND STRING · MATTE TACTILITY · ARTFUL WHITESPACE |
-| **[xxd-panel-092](https://github.com/nevertoday/xxd-panel-092)** | Expressive pen · loose contours · geometric and scribble hatching · negative-space composition |
-| **[xxd-panel-093](https://github.com/nevertoday/xxd-panel-093)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
-| **[xxd-panel-094](https://github.com/nevertoday/xxd-panel-094)** | Fine pen-and-ink · selective solid black · source-derived spot colour · vast negative space · vintage book illustration |
-| **[xxd-panel-095](https://github.com/nevertoday/xxd-panel-095)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
-| **[xxd-panel-096](https://github.com/nevertoday/xxd-panel-096)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
-| **[xxd-panel-097](https://github.com/nevertoday/xxd-panel-097)** | Mid-century vernacular commercial graphic · schematic line drawing · two-colour spot printing · functional humour |
-| **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | naïve folk narrative · primitive forms · flat space · crayon grain · warm paper · vivid limited colour · folk editorial type |
+| [xxd-panel-074](https://github.com/nevertoday/xxd-panel-074) | STANDARD ROUNDED SQUARE · FRONT PSEUDO-3D／2.5D · SOURCE-SOUL EXTRACTION · MATTE SCULPTURE · BRAND ICON |
+| [xxd-panel-075](https://github.com/nevertoday/xxd-panel-075) | DARK CRAYON · IVORY HANDMADE PAPER · SOFT IRREGULAR FIELD · RISOGRAPH GRAIN · WHITESPACE · PRIVATE TYPEWRITER NOTE |
+| [xxd-panel-076](https://github.com/nevertoday/xxd-panel-076) | ROUGH DARK CRAYON · CHARCOAL · BRIGHT MACARON BLOCKS · 45% CONTINUOUS WHITESPACE · NATURAL PAPER · OBSERVATION NOTES |
+| [xxd-panel-077](https://github.com/nevertoday/xxd-panel-077) | MINIMAL PAPER SCULPTURE · CLEAR CUT-PAPER CONTOUR · LAYERED PLANES · SOFT SHADOW · HUMANIST MACARON · TRAVEL EDITORIAL |
+| [xxd-panel-078](https://github.com/nevertoday/xxd-panel-078) | IVORY COTTON PAPER · DEEP DEBOSS · RECESSED CHAMPAGNE FOIL · FINE-LINE MARK · BLIND PRESSURE · UNDERSTATED LUXURY |
+| [xxd-panel-079](https://github.com/nevertoday/xxd-panel-079) | GEOMETRIC STRAIGHTS · FREE ORGANIC CURVES · PEN AND WASH · UNFINISHED QUALITY · BROAD PAPER WHITE · EDITORIAL TYPE |
+| [xxd-panel-080](https://github.com/nevertoday/xxd-panel-080) | SOFT ORGANIC GEOMETRY · DIGITAL GOUACHE · CRAYON GRAIN · BOTANICAL COLOUR · SOURCE-BORN METAPHOR · EMOTIONAL SPACE |
+| [xxd-panel-081](https://github.com/nevertoday/xxd-panel-081) | EVEN-WEIGHT COLOURED MONOLINE · OPEN CONTOUR · DENSITY HIERARCHY · 2–4 SPOT INKS · RISOGRAPH GRAIN · KEEPSAKE NARRATIVE |
+| [xxd-panel-082](https://github.com/nevertoday/xxd-panel-082) | IRREGULAR WATERCOLOUR FIELD · NAÏVE + WONKY · ISOMETRIC／2.5D · CHILDLIKE CONTOUR · VIVID COLOUR · SPATIAL PROTAGONIST |
+| [xxd-panel-083](https://github.com/nevertoday/xxd-panel-083) | UGLY-CUTE DOODLE · WONKY TREMBLING CONTOUR · CONTROLLED WRONGNESS · ONE COMIC PROTAGONIST · ROUGH CRAYON · SPARSE-STRANGE-CLUMSY-ACCURATE |
+| [xxd-panel-084](https://github.com/nevertoday/xxd-panel-084) | MINIMAL URBAN LINEWORK · GEOMETRIC SCAFFOLD · DENSITY-BASED STIPPLING · LEADING LINES · RESTRAINED COLOUR · POETIC WHITESPACE |
+| [xxd-panel-085](https://github.com/nevertoday/xxd-panel-085) | HANDMADE MINIATURE STAGE · COLLECTIBLE DIMENSIONAL COVER · CLAY AND FELT · CUT PAPER AND STRING · MATTE TACTILITY · ARTFUL WHITESPACE |
+| [xxd-panel-086](https://github.com/nevertoday/xxd-panel-086) | mid-century modernist limited-colour screen print · silhouette geometry · 2–4 spot inks · dry-brush drag · one focus · generous whitespace |
+| [xxd-panel-087](https://github.com/nevertoday/xxd-panel-087) | physical pin-and-string relationship map · vermilion thread · emergent geometry · handwritten notes · research-wall whitespace |
+| [xxd-panel-088](https://github.com/nevertoday/xxd-panel-088) | experimental typographic image · text as image · deconstructed type · dot-matrix contour · density gradient · visual poetry |
+| [xxd-panel-089](https://github.com/nevertoday/xxd-panel-089) | personal life-journal vignette · one protagonist · a few daily fragments · loose hand line · watercolour and coloured pencil · mature whitespace |
+| [xxd-panel-090](https://github.com/nevertoday/xxd-panel-090) | schematic visual thinking map · concept centre · text nodes · geometric scaffold · trajectory arrows · visual notation · generous whitespace |
+| [xxd-panel-091](https://github.com/nevertoday/xxd-panel-091) | monochrome blue-pen narrative sketch · cobalt／pen blue／ultramarine／indigo · directional hatching · searching lines · natural paper white |
+| [xxd-panel-092](https://github.com/nevertoday/xxd-panel-092) | Expressive pen · loose contours · geometric and scribble hatching · negative-space composition |
+| [xxd-panel-093](https://github.com/nevertoday/xxd-panel-093) | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
+| [xxd-panel-094](https://github.com/nevertoday/xxd-panel-094) | Fine pen-and-ink · selective solid black · source-derived spot colour · vast negative space · vintage book illustration |
+| [xxd-panel-095](https://github.com/nevertoday/xxd-panel-095) | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
+| [xxd-panel-096](https://github.com/nevertoday/xxd-panel-096) | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
+| [xxd-panel-097](https://github.com/nevertoday/xxd-panel-097) | Mid-century vernacular commercial graphic · schematic line drawing · two-colour spot printing · functional humour |
+| [xxd-panel-098](https://github.com/nevertoday/xxd-panel-098) | faux-naïve watercolour picture-book illustration · loose ink line · flat watercolour／gouache · symbolic form · innocent perspective · mature narrative composition |
+| [xxd-panel-099](https://github.com/nevertoday/xxd-panel-099) | flat vector brand mascot · bold black contour · rounded geometry · exaggerated proportion · 2–4 branded colours · oversized type background |
+| **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | naïve folk-inspired flat narrative · primitive forms · simplified silhouettes · flattened perspective · crayon／oil-pastel grain · warm paper · vivid limited colour |
 <!-- xxd-panel-catalog:end -->
 
 ## About XXD

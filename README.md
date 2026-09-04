@@ -260,7 +260,7 @@ Use this photograph, ask me for the modes and copy setting, then generate fresh 
 <!-- xxd-panel-catalog:start -->
 ## XXD Panel 全系列项目
 
-100 个 Panel 各自保留独立的原始提示词与审美逻辑。下面列出全部项目地址和核心风格特点；当前项目以粗体标出。
+100 个 Panel 各自保留独立的原始提示词与审美逻辑。下面连续列出 001–100 的全部项目地址和核心风格特点；当前项目以粗体标出。
 
 | 项目地址 | 风格特点 |
 |---|---|
@@ -337,25 +337,33 @@ Use this photograph, ask me for the modes and copy setting, then generate fresh 
 | [xxd-panel-071](https://github.com/nevertoday/xxd-panel-071) | 柔和粉彩 · 粉蜡笔 · 水溶性色铅笔 · 近白纸面 · 漂浮记忆片段 · 诗性手写 |
 | [xxd-panel-072](https://github.com/nevertoday/xxd-panel-072) | 半透明磨砂视窗 · 区域差异化柔焦 · 极简几何 · 清晰识别轮廓 · 明艳治愈色 · 现代编辑排版 |
 | [xxd-panel-073](https://github.com/nevertoday/xxd-panel-073) | 等距微缩建筑 · 剖切立方体 · 大陆架空间 · 理性脚手架 · 手绘建筑图解 · 白色纹理纸 |
-| **[xxd-panel-074](https://github.com/nevertoday/xxd-panel-074)** | 标准圆角方形 · 正面伪 3D／2.5D · 原图灵魂提炼 · 连续空间遮挡 · 哑光雕塑感 · 品牌图标提案 |
-| **[xxd-panel-075](https://github.com/nevertoday/xxd-panel-075)** | 深色蜡笔速写 · 米白手工纸 · 柔和不规则色域 · Risograph 颗粒 · 大面积留白 · 打字机私人注记 |
-| **[xxd-panel-076](https://github.com/nevertoday/xxd-panel-076)** | 粗粝深色蜡笔 · 炭笔彩铅 · 明亮马卡龙色块 · 45% 连续留白 · 天然纸面 · 打字机观察注记 |
-| **[xxd-panel-077](https://github.com/nevertoday/xxd-panel-077)** | 极简纸雕拼贴 · 清晰剪纸轮廓 · 前后层叠 · 柔和投影 · 人文马卡龙 · 旅行杂志排版 |
-| **[xxd-panel-078](https://github.com/nevertoday/xxd-panel-078)** | 暖米白棉纸 · 深压凹印 · 凹槽香槟金箔 · 纤细线性标识 · 无墨压痕 · 低调奢华 |
-| **[xxd-panel-079](https://github.com/nevertoday/xxd-panel-079)** | 强几何直线 · 自由有机曲线 · 钢笔淡彩 · 未完成感 · 大面积纸白 · 编辑式图文混排 |
-| **[xxd-panel-080](https://github.com/nevertoday/xxd-panel-080)** | 柔性有机几何 · 数字水粉蜡笔 · 颗粒肌理 · 植物系配色 · 自然隐喻 · 情绪留白 |
-| **[xxd-panel-081](https://github.com/nevertoday/xxd-panel-081)** | 等粗彩色单线 · 开放轮廓 · 线密度层级 · 2–4 色专印 · Risograph 颗粒 · 私人纪念叙事 |
-| **[xxd-panel-082](https://github.com/nevertoday/xxd-panel-082)** | 不规则水彩色域 · Naïve + Wonky · Isometric／2.5D · 稚拙轮廓 · 鲜活配色 · 立体主角 |
-| **[xxd-panel-083](https://github.com/nevertoday/xxd-panel-083)** | Ugly-cute 丑萌涂鸦 · Wonky 发抖轮廓 · 故意失准 · 单一幽默主角 · 粗糙蜡笔 · 少怪笨准 |
-| **[xxd-panel-084](https://github.com/nevertoday/xxd-panel-084)** | 极简城市线描 · 几何线性骨架 · 点描密度层次 · 透视引导线 · 限制性色彩 · 诗意留白 |
-| **[xxd-panel-085](https://github.com/nevertoday/xxd-panel-085)** | 手工微缩舞台 · 收藏级立体封面 · 黏土毛毡纸板 · 手剪线绳 · 哑光触感 · 艺术留白 |
-| **[xxd-panel-092](https://github.com/nevertoday/xxd-panel-092)** | Expressive pen · loose contours · geometric and scribble hatching · negative-space composition |
-| **[xxd-panel-093](https://github.com/nevertoday/xxd-panel-093)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
-| **[xxd-panel-094](https://github.com/nevertoday/xxd-panel-094)** | Fine pen-and-ink · selective solid black · source-derived spot colour · vast negative space · vintage book illustration |
-| **[xxd-panel-095](https://github.com/nevertoday/xxd-panel-095)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
-| **[xxd-panel-096](https://github.com/nevertoday/xxd-panel-096)** | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
-| **[xxd-panel-097](https://github.com/nevertoday/xxd-panel-097)** | Mid-century vernacular commercial graphic · schematic line drawing · two-colour spot printing · functional humour |
-| **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | 稚拙民艺叙事 · primitive forms · 平面空间 · 蜡笔颗粒 · 暖白纸面 · 鲜活限制色 · 民艺编辑文字 |
+| [xxd-panel-074](https://github.com/nevertoday/xxd-panel-074) | 标准圆角方形 · 正面伪 3D／2.5D · 原图灵魂提炼 · 连续空间遮挡 · 哑光雕塑感 · 品牌图标提案 |
+| [xxd-panel-075](https://github.com/nevertoday/xxd-panel-075) | 深色蜡笔速写 · 米白手工纸 · 柔和不规则色域 · Risograph 颗粒 · 大面积留白 · 打字机私人注记 |
+| [xxd-panel-076](https://github.com/nevertoday/xxd-panel-076) | 粗粝深色蜡笔 · 炭笔彩铅 · 明亮马卡龙色块 · 45% 连续留白 · 天然纸面 · 打字机观察注记 |
+| [xxd-panel-077](https://github.com/nevertoday/xxd-panel-077) | 极简纸雕拼贴 · 清晰剪纸轮廓 · 前后层叠 · 柔和投影 · 人文马卡龙 · 旅行杂志排版 |
+| [xxd-panel-078](https://github.com/nevertoday/xxd-panel-078) | 暖米白棉纸 · 深压凹印 · 凹槽香槟金箔 · 纤细线性标识 · 无墨压痕 · 低调奢华 |
+| [xxd-panel-079](https://github.com/nevertoday/xxd-panel-079) | 强几何直线 · 自由有机曲线 · 钢笔淡彩 · 未完成感 · 大面积纸白 · 编辑式图文混排 |
+| [xxd-panel-080](https://github.com/nevertoday/xxd-panel-080) | 柔性有机几何 · 数字水粉蜡笔 · 颗粒肌理 · 植物系配色 · 自然隐喻 · 情绪留白 |
+| [xxd-panel-081](https://github.com/nevertoday/xxd-panel-081) | 等粗彩色单线 · 开放轮廓 · 线密度层级 · 2–4 色专印 · Risograph 颗粒 · 私人纪念叙事 |
+| [xxd-panel-082](https://github.com/nevertoday/xxd-panel-082) | 不规则水彩色域 · Naïve + Wonky · Isometric／2.5D · 稚拙轮廓 · 鲜活配色 · 立体主角 |
+| [xxd-panel-083](https://github.com/nevertoday/xxd-panel-083) | Ugly-cute 丑萌涂鸦 · Wonky 发抖轮廓 · 故意失准 · 单一幽默主角 · 粗糙蜡笔 · 少怪笨准 |
+| [xxd-panel-084](https://github.com/nevertoday/xxd-panel-084) | 极简城市线描 · 几何线性骨架 · 点描密度层次 · 透视引导线 · 限制性色彩 · 诗意留白 |
+| [xxd-panel-085](https://github.com/nevertoday/xxd-panel-085) | 手工微缩舞台 · 收藏级立体封面 · 黏土毛毡纸板 · 手剪线绳 · 哑光触感 · 艺术留白 |
+| [xxd-panel-086](https://github.com/nevertoday/xxd-panel-086) | 中世纪现代主义限色丝网版画 · 剪影几何 · 2–4 色专印 · 干刷拖墨 · 一个焦点 · 大面积留白 |
+| [xxd-panel-087](https://github.com/nevertoday/xxd-panel-087) | 实体线绳关系系统地图 · 图钉节点 · 朱红线绳 · 关系映射 · 涌现几何 · 研究墙式留白 |
+| [xxd-panel-088](https://github.com/nevertoday/xxd-panel-088) | 实验字体图像构成 · 文字即图像 · 解构排版 · 点阵轮廓 · 文字密度梯度 · 视觉诗 |
+| [xxd-panel-089](https://github.com/nevertoday/xxd-panel-089) | 私人生活手账小品 · 一个主角 · 少量生活碎片 · 松散手绘线 · 水彩彩铅与粉蜡笔 · 成熟留白 |
+| [xxd-panel-090](https://github.com/nevertoday/xxd-panel-090) | 图式化视觉思维地图 · 概念中心 · 文字节点 · 几何骨架 · 轨迹箭头 · 视觉记谱 · 大面积留白 |
+| [xxd-panel-091](https://github.com/nevertoday/xxd-panel-091) | 单色蓝笔叙事速写 · 钴蓝／钢笔蓝／群青／靛蓝 · 方向排线 · 寻找线 · 选择性细化 · 自然纸白 |
+| [xxd-panel-092](https://github.com/nevertoday/xxd-panel-092) | Expressive pen · loose contours · geometric and scribble hatching · negative-space composition |
+| [xxd-panel-093](https://github.com/nevertoday/xxd-panel-093) | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
+| [xxd-panel-094](https://github.com/nevertoday/xxd-panel-094) | Fine pen-and-ink · selective solid black · source-derived spot colour · vast negative space · vintage book illustration |
+| [xxd-panel-095](https://github.com/nevertoday/xxd-panel-095) | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
+| [xxd-panel-096](https://github.com/nevertoday/xxd-panel-096) | Independent original aesthetic · photo-grounded transformation · flexible multi-format delivery |
+| [xxd-panel-097](https://github.com/nevertoday/xxd-panel-097) | Mid-century vernacular commercial graphic · schematic line drawing · two-colour spot printing · functional humour |
+| [xxd-panel-098](https://github.com/nevertoday/xxd-panel-098) | 拟朴素水彩绘本插画 · 松散墨线 · 平面水彩／类水粉 · 符号化造型 · 天真透视 · 明快照片取色 · 成熟叙事构图 |
+| [xxd-panel-099](https://github.com/nevertoday/xxd-panel-099) | 品牌吉祥物平面矢量插画 · 粗黑轮廓 · 圆润几何 · 夸张比例 · 2–4 色品牌化取色 · 超大文字背景 |
+| **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | 稚拙民艺感平面叙事 · primitive forms · 简化剪影 · flattened perspective · 蜡笔／油画棒颗粒 · 暖白纸面 · 鲜活限制色 |
 <!-- xxd-panel-catalog:end -->
 
 ## 关于 XXD
