@@ -367,19 +367,16 @@ XXD is Xiaoxiaodong's abbreviated brand name. Created and maintained by [@xiaoxi
 
 ## Support and membership
 
-### Xiaoxiaodong Commander · General Command Skill · CNY 100
-
-A one-time CNY 100 purchase unlocks this suite's General Command Skill (`xxd-panel-all`) for roster control, recommendations, Soldier dispatch, and batch coordination. Include “General Command Skill” in your WeChat message.
 
 <!-- xxd-panel-command-system:start -->
-**Your purchase unlocks the General Skill that commands the whole roster**
+
+All General Skills are included in the CNY 699/year membership; no separate purchase is required.
 
 | Level | Skill | Responsibility |
 |---|---|---|
 | **General** | [`xxd-panel-all`](https://github.com/nevertoday/xxd-panel-all) | Detect available numbered Skills; recommend by image, theme, or use; dispatch a chosen number; organize multi-style trials; and assign folders of images to individual jobs. |
 | **Soldiers** | `xxd-panel-NNN` (currently 001–112) | Each numbered Skill executes only its own original brief and aesthetic, completing the individual job assigned by the General. |
 
-The General Skill is the command center for the entire numbered-Skill roster. Your purchase unlocks it together with help for installation, updates, roster setup, and dispatch workflows. The General organizes and routes; it never rewrites, blends, or overrides a Soldier's original aesthetic. Every finished asset is still created independently by the selected Soldier Skill.
 <!-- xxd-panel-command-system:end -->
 
 ### Knowledge Planet + Member Prompt Library + All General Skills Membership · CNY 699/year
