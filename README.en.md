@@ -389,21 +389,6 @@ All General Skills are included in the CNY 699/year membership; no separate purc
 
 <div align="center"><strong>Let the mark pause, let the colour shift, and let the feeling remain.</strong></div>
 
----
-
-<div align="center">
-
-## Support this open-source project
-
-> **Advertising disclosure:** QR codes and paid membership/service links in this section are XXD promotional content. Scanning or purchasing is optional and does not affect access to this open-source project.
-
-If this project helps you, you’re welcome to support it through Buy Me a Coffee—entirely optional.
-
-
-<p align="center"><a href="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true"><img src="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true" alt="Buy Me a Coffee" width="180"></a></p>
-
-</div>
-
 ## License
 
 This project—including its Skill, prompts, scripts, documentation, and accompanying samples—is released under the **PolyForm Noncommercial License 1.0.0**. The complete legal text is in [LICENSE](LICENSE); the official page is <https://polyformproject.org/licenses/noncommercial/1.0.0>.

@@ -389,21 +389,6 @@ XXD هو اختصار اسم علامة Xiaoxiaodong. أنشأ المشروع و
 
 <div align="center" dir="rtl"><strong>دع اللمسة تتوقف قليلاً، واللون ينزاح قليلاً، والشعور يبقى.</strong></div>
 
----
-
-<div align="center" dir="rtl">
-
-## ☕ دعم المشروع المفتوح المصدر
-
-> **إفصاح إعلاني:** رموز QR وروابط العضوية والخدمات المدفوعة في هذا القسم هي مواد ترويجية من XXD. المسح أو الشراء اختياري ولا يؤثر في استخدام المشروع المفتوح المصدر.
-
-إذا أفادك المشروع، يمكنك دعمه اختيارياً عبر Buy Me a Coffee.
-
-
-<p align="center"><a href="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true"><img src="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true" alt="Buy Me a Coffee" width="180"></a></p>
-
-</div>
-
 ## الترخيص
 
 يُقدَّم هذا المشروع — بما في ذلك Skill والموجّهات والبرامج النصية والوثائق والعينات المرفقة — بموجب **PolyForm Noncommercial License 1.0.0**. النص القانوني الكامل موجود في [LICENSE](LICENSE)، والصفحة الرسمية هي <https://polyformproject.org/licenses/noncommercial/1.0.0>.

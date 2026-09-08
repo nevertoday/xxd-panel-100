@@ -393,22 +393,6 @@ XXD 是小小东品牌名的缩写，本项目由小小东创建并维护： [@x
 
 <div align="center"><strong>先保留身份，再把它变成一眼记住的角色。</strong></div>
 
----
-
-<div align="center">
-
-## ☕ 支持这个开源项目
-
-如果项目对你有帮助，愿意的话，可以用小小东本人的微信或支付宝赞赏码支持算力。
-
-
-<table><tr>
-<td align="center"><a href="https://colors.xiaoxiaodong.ai/docs/images/wechat-reward-qr.png"><img src="https://colors.xiaoxiaodong.ai/docs/images/wechat-reward-qr.png" alt="XXD WeChat reward" width="180"></a><br><strong>WeChat</strong></td>
-<td align="center"><a href="https://colors.xiaoxiaodong.ai/docs/images/alipay-reward-qr.png"><img src="https://colors.xiaoxiaodong.ai/docs/images/alipay-reward-qr.png" alt="XXD Alipay reward" width="180"></a><br><strong>Alipay</strong></td>
-</tr></table>
-
-</div>
-
 ## 许可证
 
 本项目（包括 Skill、提示词、脚本、文档及随附样张）采用 **PolyForm Noncommercial License 1.0.0**。完整法律条文请见 [LICENSE](LICENSE)，官方页面见 <https://polyformproject.org/licenses/noncommercial/1.0.0>。
