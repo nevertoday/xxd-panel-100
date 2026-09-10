@@ -379,8 +379,8 @@ One annual membership unlocks three benefits together: **Knowledge Planet + the 
 
 ### What you receive
 
-1. **Make Xiaoxiaodong your AI learning advisor**
-   Ask questions anytime in [Knowledge Planet](https://wx.zsxq.com/group/15554814142882) about AI learning, tools, and real projects. Xiaoxiaodong replies and turns useful questions into member resources.
+1. **One-to-one WeChat AI learning and project support**
+   Add Xiaoxiaodong on WeChat via the QR code below to discuss AI learning, tools, and real projects one to one, with practical guidance and answers. Representative questions may be organized into member resources.
 2. **A growing member prompt library**
    The [XXD Member Prompt Library](https://vip.xiaoxiaodong.ai/) currently contains about 32,000 prompts and will keep expanding, with a goal of exceeding 100,000.
 3. **All General Skills and usage support**
@@ -391,7 +391,7 @@ One annual membership unlocks three benefits together: **Knowledge Planet + the 
 ### How to join
 
 - [Activate membership on the member website](https://vip.xiaoxiaodong.ai/).
-- Or scan the QR code below to contact Xiaoxiaodong for help with activation.
+- Or scan the QR code below to add Xiaoxiaodong on WeChat for one-to-one activation support.
 
 <p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="Contact Xiaoxiaodong" width="280"></a></p>
 <!-- xxd-readme-ads:end -->

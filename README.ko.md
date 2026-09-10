@@ -379,8 +379,8 @@ XXD는 Xiaoxiaodong 브랜드 이름의 약자입니다. 이 프로젝트는 [@x
 
 ### 회원 혜택
 
-1. **Xiaoxiaodong을 AI 학습 상담자로**
-   [Knowledge Planet](https://wx.zsxq.com/group/15554814142882)에서 AI 학습, 도구, 실제 프로젝트에 대해 언제든 질문할 수 있습니다. 답변과 유용한 내용을 회원 자료로 계속 정리합니다.
+1. **WeChat 일대일 AI 학습·프로젝트 상담**
+   아래 QR 코드로 Xiaoxiaodong의 WeChat을 추가해 AI 학습, 도구, 실제 프로젝트를 일대일로 상담하고 실용적인 답변과 안내를 받을 수 있습니다. 대표적인 질문은 회원 자료로 정리됩니다.
 2. **계속 업데이트되는 회원 프롬프트 라이브러리**
    [XXD 회원 프롬프트 라이브러리](https://vip.xiaoxiaodong.ai/)에는 현재 약 3만 2천 개의 프롬프트가 있으며, 10만 개 이상을 목표로 계속 확장합니다.
 3. **모든 General Skills와 사용 지원**
@@ -391,7 +391,7 @@ XXD는 Xiaoxiaodong 브랜드 이름의 약자입니다. 이 프로젝트는 [@x
 ### 가입 방법
 
 - [회원 웹사이트에서 직접 가입](https://vip.xiaoxiaodong.ai/)할 수 있습니다.
-- 또는 아래 QR 코드로 Xiaoxiaodong에게 연락하면 가입을 도와드립니다.
+- 또는 아래 QR 코드로 Xiaoxiaodong의 WeChat을 추가해 일대일 가입 지원을 받을 수 있습니다.
 
 <p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="Xiaoxiaodong 연락처" width="280"></a></p>
 <!-- xxd-readme-ads:end -->

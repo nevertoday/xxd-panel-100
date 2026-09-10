@@ -376,8 +376,8 @@ XXD 是小小东品牌名的缩写，本项目由小小东创建并维护：[@xi
 
 ### 会员权益
 
-1. **让小小东成为你的 AI 学习顾问**
-   在[知识星球](https://wx.zsxq.com/group/15554814142882)里随时提问，围绕 AI 学习、工具使用和实际项目获得答疑与建议。我会持续回复，并把有代表性的问题整理回会员内容中。
+1. **微信一对一 AI 学习与项目答疑**
+   扫描下方二维码添加微信，围绕 AI 学习、工具使用和实际项目进行一对一沟通，获得答疑与建议；代表性问题将整理为会员内容。
 2. **持续更新的成员提示词库**
    [小小东成员提示词库](https://vip.xiaoxiaodong.ai/)当前约有 3.2 万条提示词，会持续整理和扩充，目标超过 10 万条。
 3. **全部 General Skills 与使用答疑**
@@ -388,7 +388,7 @@ XXD 是小小东品牌名的缩写，本项目由小小东创建并维护：[@xi
 ### 如何开通
 
 - 可在[成员网站](https://vip.xiaoxiaodong.ai/)自助开通。
-- 也可以扫描下方二维码联系小小东，由我协助开通。
+- 也可以扫描下方二维码添加微信，进行一对一沟通并获得开通协助。
 
 <p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="联系小小东" width="280"></a></p>
 <!-- xxd-readme-ads:end -->
