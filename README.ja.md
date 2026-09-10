@@ -45,23 +45,6 @@
 
 <!-- xxd-human-intro:end -->
 
-## 使い方のコツ
-
-- **まず一枚の見やすい写真から始める：** 主体・動作・関係が分かる画像を選んでから、出力形式と比率を決めます。
-- **パラメータを一文でつなぐ：** 「上下 / 左右 / デザインのみ + 16:9 / 3:4 / スマホ壁紙」のように指定し、PC・タブレット・スマートウォッチのサイズも追加できます。
-- **残したい内容を明示する：** 人物、物、動作、関係、文字を指定し、レイアウトを細かく縛りすぎずスタイルに任せます。
-- **文字の方法を選ぶ：** 画像から自動生成、`--text exact --copy` で逐字固定、または `--text none` で文字なしにできます。
-- **写真領域とデザイン領域を伝える：** 上下・左右では写真を残す側と再設計する側を指定し、デザインのみ・壁紙では全画面を再設計すると伝えます。
-- **一枚で試してから一括処理する：** モード、比率、文字、言語を一枚で確認し、同じ設定をフォルダに適用します。比較しやすいよう一度に一つだけ変更します。
-
-## 原文プロンプト · 5言語
-
-[简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
-
-中国語ファイルが逐語の原文であり、実行時の唯一の創作権威です。他4言語は忠実な読解訳で、生画像プロンプトを書き換えません。
-
-**特徴：** 稚拙な民藝物語 · primitive forms · flattened perspective · クレヨン粒子 · 限定色 · 民藝編集文字
-
 <!-- xxd-panel-benefit:start -->
 ## すぐ分かる適性
 
@@ -72,6 +55,49 @@
 | **入力の尊重** | 同一性、姿勢、物語を保ち、不要部分を省き、輪郭フィルターにはしない |
 | **用途** | アートポスター、表紙、SNS、デザイン単体、複数比率、四端末壁紙 |
 <!-- xxd-panel-benefit:end -->
+
+## 使い方のコツ
+
+- **まず一枚の見やすい写真から始める：** 主体・動作・関係が分かる画像を選んでから、出力形式と比率を決めます。
+- **パラメータを一文でつなぐ：** 「上下 / 左右 / デザインのみ + 16:9 / 3:4 / スマホ壁紙」のように指定し、PC・タブレット・スマートウォッチのサイズも追加できます。
+- **残したい内容を明示する：** 人物、物、動作、関係、文字を指定し、レイアウトを細かく縛りすぎずスタイルに任せます。
+- **文字の方法を選ぶ：** 画像から自動生成、`--text exact --copy` で逐字固定、または `--text none` で文字なしにできます。
+- **写真領域とデザイン領域を伝える：** 上下・左右では写真を残す側と再設計する側を指定し、デザインのみ・壁紙では全画面を再設計すると伝えます。
+- **一枚で試してから一括処理する：** モード、比率、文字、言語を一枚で確認し、同じ設定をフォルダに適用します。比較しやすいよう一度に一つだけ変更します。
+
+## 使い始める
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-100.git
+mkdir -p ~/.codex/skills
+ln -s "$(pwd)/xxd-panel-100" ~/.codex/skills/xxd-panel-100
+```
+
+`npx skills` でも直接インストールできます：
+
+```bash
+npx skills add https://github.com/nevertoday/xxd-panel-100 --skill xxd-panel-100
+```
+
+このコマンドは GitHub からリポジトリを取得し、同名の Skill を現在の Agent にインストールします。ユーザー単位の Codex Skills ディレクトリへ入れる場合は、末尾に `--global --agent codex --yes` を追加してください。
+
+Claude Code では同じフォルダを次へリンクできます： `~/.claude/skills/xxd-panel-100`. インストール後に Agent セッションを再起動してください。
+
+```text
+$xxd-panel-100
+Use this photograph, ask me for the modes and copy setting, then generate fresh raster outputs.
+```
+
+完全仕様: [Skill ワークフロー](SKILL.md) · [原始スタイル資料](references/original-prompt/zh-CN.md) · [英語ランタイムアダプター](references/xxd-panel-100-prompt.en.md) · [中国語ランタイムアダプター](references/xxd-panel-100-prompt.zh-CN.md)
+
+## 原文プロンプト · 5言語
+
+[简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
+
+中国語ファイルが逐語の原文であり、実行時の唯一の創作権威です。他4言語は忠実な読解訳で、生画像プロンプトを書き換えません。
+
+**特徴：** 稚拙な民藝物語 · primitive forms · flattened perspective · クレヨン粒子 · 限定色 · 民藝編集文字
+
 
 <details>
 <summary><strong>全機能と引数（必要なときに開く）</strong></summary>
@@ -219,31 +245,6 @@ GPT Image 2 を既定の第一候補とします。高忠実度の参照画像�
 適切な経路がない場合は、画像生成ツールを有効にするか API Key を提供するようユーザーに案内します。ユーザーが提供した認証情報は現在のタスクで利用できますが、返信やログに再表示・記録・開示しません。明示的な依頼がない限り、長期保存やプロバイダー、アカウント、課金、グローバル経路の設定変更も行いません。
 
 </details>
-
-## 使い始める
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-100.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-100" ~/.codex/skills/xxd-panel-100
-```
-
-`npx skills` でも直接インストールできます：
-
-```bash
-npx skills add https://github.com/nevertoday/xxd-panel-100 --skill xxd-panel-100
-```
-
-このコマンドは GitHub からリポジトリを取得し、同名の Skill を現在の Agent にインストールします。ユーザー単位の Codex Skills ディレクトリへ入れる場合は、末尾に `--global --agent codex --yes` を追加してください。
-
-Claude Code では同じフォルダを次へリンクできます： `~/.claude/skills/xxd-panel-100`. インストール後に Agent セッションを再起動してください。
-
-```text
-$xxd-panel-100
-Use this photograph, ask me for the modes and copy setting, then generate fresh raster outputs.
-```
-
-完全仕様: [Skill ワークフロー](SKILL.md) · [原始スタイル資料](references/original-prompt/zh-CN.md) · [英語ランタイムアダプター](references/xxd-panel-100-prompt.en.md) · [中国語ランタイムアダプター](references/xxd-panel-100-prompt.zh-CN.md)
 
 <!-- xxd-panel-catalog:start -->
 ## XXD Panel 全プロジェクト一覧
