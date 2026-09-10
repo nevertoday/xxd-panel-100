@@ -94,7 +94,7 @@ Mode and size completely replace the legacy 3:4 top-bottom delivery container wi
 Select one or more of `top-bottom`, `left-right`, `design-only`, and `wallpaper-pack`. When several are selected, each is generated independently with its own prompt.
 
 - `top-bottom`: one complete canvas with the reality view above and transformed design below.
-- `left-right`: one complete canvas whose left-right structure runs from top edge to bottom edge, source left and design right. Typography stays inside that structure rather than creating a shared third footer; widths may be asymmetric.
+- `left-right`: one complete canvas whose left-right structure runs from top edge to bottom edge, source left and design right. Typography stays inside that structure rather than creating a shared third footer; the outer regions are strictly 50:50; only each region’s internal crop, scale, whitespace and typography may vary.
 - `design-only`: the source is a non-visible reference for identity, structure, colour logic, and facts; every visible element follows this Panel's transformation language.
 - `wallpaper-pack`: each device receives an independently composed full-canvas transformed wallpaper, with no source-photo region.
 

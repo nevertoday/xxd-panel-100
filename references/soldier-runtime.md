@@ -238,18 +238,23 @@ Left-right:
 ```text
 OUTPUT MODE: LEFT_RIGHT
 
-Create one complete canvas containing exactly two full-height vertical regions.
-The REALITY VIEW occupies the left 50% and the TRANSFORMED DESIGN occupies the
-right 50%, separated only at the exact horizontal midpoint. Do not rotate this
-into a top-bottom layout and do not create a header, footer, centre strip, title
-band, inset panel, grid, card row, collage, or third region outside those two
-halves. Keep all typography inside the right 50% without turning it into another
-zone. Explicitly map the source brief's upper/lower positional terms to
-left/right while preserving its aesthetic instructions and strict equal halves.
-Source-required internal grids, frames, containers and sidebars belong inside
-the right 50%. Determine only each region's internal crop, extension, whitespace
-and typography from the source, source brief and final canvas; never alter the
-50:50 split.
+Create one complete canvas containing exactly two full-height vertical regions,
+with a hard structural boundary at the exact horizontal midpoint. The REALITY
+VIEW fills the left 50% from top to bottom; the TRANSFORMED DESIGN fills the
+right 50% from top to bottom. Treat this as one coherent artwork with two
+coordinated zones, not as two separately framed images and not as a collage.
+Never rotate this into a top-bottom layout. Do not create a header, footer,
+centre strip, title band, inset panel, grid, card row, collage, or third region
+outside the two halves. Keep every piece of typography and every source-required
+grid, frame, container or sidebar inside the right half.
+
+Preserve visual continuity across the midpoint through shared colour logic,
+texture, line rhythm and subject-derived relationships, but never let any object,
+text or background treatment cross the midpoint. Reinterpret the source brief's
+upper/lower language as right-side internal composition only; do not mechanically
+rotate the source layout. Within each fixed half, decide crop, environmental
+extension, scale and whitespace from the source brief. The outer 50:50 geometry
+is fixed and must not be renegotiated for visual balance.
 ```
 
 Design-only:
