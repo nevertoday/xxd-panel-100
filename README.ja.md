@@ -361,33 +361,46 @@ XXD Panel の現行シリーズは 001〜112 まで更新され、各 Panel は�
 | **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | 稚拙な民藝感の平面物語 · primitive forms · 簡略シルエット · flattened perspective · クレヨン／オイルパステル粒子 · 暖白紙 · 鮮やかな限定色 |
 <!-- xxd-panel-catalog:end -->
 
+<!-- xxd-readme-ads:start -->
 ## XXD について
 
-XXD は Xiaoxiaodong のブランド名略称です。作成・管理： [@xiaoxiaodong01](https://x.com/xiaoxiaodong01).
+XXD は Xiaoxiaodong のブランド名略称です。本プロジェクトの作成・管理：[@xiaoxiaodong01](https://x.com/xiaoxiaodong01)。
 
-## サポートとメンバーシップ
+## Xiaoxiaodong マルチプラットフォーム会員 · 年額 CNY 699
 
+> **広告表示：** 以下のQRコード、会員および有料サービスのリンクはXXDの広告情報です。スキャンや購入は任意であり、オープンソースの利用には影響しません。
+
+年額会員ひとつで、**Knowledge Planet＋XXD会員プロンプトライブラリ＋すべてのGeneral Skills会員**の3つを利用できます。別々に購入する必要はありません。
 
 <!-- xxd-panel-command-system:start -->
 
-すべての将軍 Skills は年額 CNY 699 の共通会員特典に含まれ、別途購入は不要です。
+### Skills の連携方法
 
-| 階級 | Skill | 担当 |
+| 区分 | 含まれるもの | 役割 |
 |---|---|---|
-| **将軍級** | [`xxd-panel-all`](https://github.com/nevertoday/xxd-panel-all) | 利用可能な番号付き Skills の検出、画像・テーマ・用途からの推薦、番号指定の派遣、同一素材の複数スタイル試作、フォルダー画像の一括割り当てと個別派遣。 |
-| **兵士級** | `xxd-panel-NNN`（現在 001–112） | 各番号が固有の原文プロンプトと美学だけを実行し、将軍から渡された一つの仕事を完成させます。 |
+| **General** | [`xxd-panel-all`](https://github.com/xiaoxiaodong-ai/xxd-panel-all) | 利用可能な番号付きSkillsを検出し、画像・テーマ・用途から推薦し、複数スタイルや一括タスクを整理します。 |
+| **Soldier** | `xxd-panel-NNN` | 各番号が固有の原文プロンプトと美学に従い、Generalから割り当てられた具体的な作業を完成させます。 |
 
 <!-- xxd-panel-command-system:end -->
 
-### 知識星球＋会員プロンプトライブラリ＋全将軍 Skills 会員 · 年額 CNY 699
+### 会員の内容
 
-[知識星球](https://wx.zsxq.com/group/15554814142882)、[XXD 会員プロンプトライブラリ](https://vip.xiaoxiaodong.ai/)、全将軍 Skills 会員は同じ会員権です。**一度の年額決済で3つの特典をすべて利用でき、二重の購入は不要です。**
+1. **XiaoxiaodongをAI学習の相談相手に**
+   [Knowledge Planet](https://wx.zsxq.com/group/15554814142882)で、AI学習、ツール、実際のプロジェクトについていつでも質問できます。回答や役立つ内容を会員向けに整理していきます。
+2. **継続更新する会員プロンプトライブラリ**
+   [XXD会員プロンプトライブラリ](https://vip.xiaoxiaodong.ai/)には現在約3.2万件のプロンプトがあり、10万件超を目標に継続して拡充します。
+3. **すべてのGeneral Skillsと利用サポート**
+   ひとつの会員で全General Skillsを利用でき、使い方に困ったときは案内やQ&Aを受けられます。
+4. **必要性の高い要望を優先**
+   会員から寄せられた頻度と必要性の高いプロンプトやSkillsは、優先して検討・開発します。
 
-[Knowledge Planet](https://wx.zsxq.com/group/15554814142882) · [Member Prompt Library](https://vip.xiaoxiaodong.ai/)
+### 開設方法
 
-<p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD WeChat" width="280"></a></p>
+- [会員サイトから自分で開設](https://vip.xiaoxiaodong.ai/)できます。
+- または下のQRコードからXiaoxiaodongに連絡し、開設を依頼できます。
 
-<div align="center"><strong>筆触を少し止め、色を少しずらし、感情を残す。</strong></div>
+<p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="Xiaoxiaodongへの連絡" width="280"></a></p>
+<!-- xxd-readme-ads:end -->
 
 ## ライセンス
 

@@ -361,33 +361,46 @@ The current XXD Panel series runs from 001 through 112, and every Panel retains 
 | **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | naïve folk-inspired flat narrative · primitive forms · simplified silhouettes · flattened perspective · crayon／oil-pastel grain · warm paper · vivid limited colour |
 <!-- xxd-panel-catalog:end -->
 
+<!-- xxd-readme-ads:start -->
 ## About XXD
 
-XXD is Xiaoxiaodong's abbreviated brand name. Created and maintained by [@xiaoxiaodong01](https://x.com/xiaoxiaodong01).
+XXD is Xiaoxiaodong's abbreviated brand name. This project is created and maintained by [@xiaoxiaodong01](https://x.com/xiaoxiaodong01).
 
-## Support and membership
+## Xiaoxiaodong multi-platform membership · CNY 699/year
 
+> **Advertising disclosure:** The QR code, membership, and paid-service links below are XXD promotional information. Scanning or purchasing is entirely optional and does not affect access to this open-source project.
+
+One annual membership unlocks three benefits together: **Knowledge Planet + the XXD Member Prompt Library + membership for all General Skills**. They are included in one membership; no separate purchase is required.
 
 <!-- xxd-panel-command-system:start -->
 
-All General Skills are included in the CNY 699/year membership; no separate purchase is required.
+### How the Skills work together
 
-| Level | Skill | Responsibility |
+| Level | Included | What it does |
 |---|---|---|
-| **General** | [`xxd-panel-all`](https://github.com/nevertoday/xxd-panel-all) | Detect available numbered Skills; recommend by image, theme, or use; dispatch a chosen number; organize multi-style trials; and assign folders of images to individual jobs. |
-| **Soldiers** | `xxd-panel-NNN` (currently 001–112) | Each numbered Skill executes only its own original brief and aesthetic, completing the individual job assigned by the General. |
+| **General** | [`xxd-panel-all`](https://github.com/xiaoxiaodong-ai/xxd-panel-all) | Detects available numbered Skills, recommends them by image, theme, or use, and organizes multi-style and batch tasks. |
+| **Soldier** | `xxd-panel-NNN` | Each numbered Skill follows its own original brief and aesthetic to complete the specific task assigned by the General. |
 
 <!-- xxd-panel-command-system:end -->
 
-### Knowledge Planet + Member Prompt Library + All General Skills Membership · CNY 699/year
+### What you receive
 
-[Knowledge Planet](https://wx.zsxq.com/group/15554814142882), the [XXD Member Prompt Library](https://vip.xiaoxiaodong.ai/), and membership for all General Skills are one membership: **one annual payment unlocks all three benefits, with no second purchase required.**
+1. **Make Xiaoxiaodong your AI learning advisor**
+   Ask questions anytime in [Knowledge Planet](https://wx.zsxq.com/group/15554814142882) about AI learning, tools, and real projects. Xiaoxiaodong replies and turns useful questions into member resources.
+2. **A growing member prompt library**
+   The [XXD Member Prompt Library](https://vip.xiaoxiaodong.ai/) currently contains about 32,000 prompts and will keep expanding, with a goal of exceeding 100,000.
+3. **All General Skills and usage support**
+   One membership covers every General Skill, with usage guidance and Q&A when you need help.
+4. **Priority for high-need requests**
+   Frequently requested, high-need prompts and Skills are reviewed and developed first where appropriate.
 
-[Knowledge Planet](https://wx.zsxq.com/group/15554814142882) · [Member Prompt Library](https://vip.xiaoxiaodong.ai/)
+### How to join
 
-<p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD WeChat" width="280"></a></p>
+- [Activate membership on the member website](https://vip.xiaoxiaodong.ai/).
+- Or scan the QR code below to contact Xiaoxiaodong for help with activation.
 
-<div align="center"><strong>Let the mark pause, let the colour shift, and let the feeling remain.</strong></div>
+<p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="Contact Xiaoxiaodong" width="280"></a></p>
+<!-- xxd-readme-ads:end -->
 
 ## License
 

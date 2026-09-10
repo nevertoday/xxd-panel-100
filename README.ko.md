@@ -361,33 +361,46 @@ Use this photograph, ask me for the modes and copy setting, then generate fresh 
 | **[xxd-panel-100](https://github.com/nevertoday/xxd-panel-100)** | 소박한 민예 감각의 평면 서사 · primitive forms · 단순 실루엣 · flattened perspective · 크레용／오일 파스텔 입자 · 따뜻한 종이 · 생생한 제한색 |
 <!-- xxd-panel-catalog:end -->
 
+<!-- xxd-readme-ads:start -->
 ## XXD 소개
 
-XXD는 Xiaoxiaodong 브랜드 이름의 약자입니다. 제작 및 유지관리: [@xiaoxiaodong01](https://x.com/xiaoxiaodong01).
+XXD는 Xiaoxiaodong 브랜드 이름의 약자입니다. 이 프로젝트는 [@xiaoxiaodong01](https://x.com/xiaoxiaodong01)이 만들고 관리합니다.
 
-## 지원과 멤버십
+## Xiaoxiaodong 멀티플랫폼 멤버십 · CNY 699/년
 
+> **광고 안내:** 아래 QR 코드와 멤버십·유료 서비스 링크는 XXD의 홍보 정보입니다. 스캔이나 구매는 선택 사항이며 오픈 소스 이용에는 영향을 주지 않습니다.
+
+연간 멤버십 하나로 **Knowledge Planet + XXD 회원 프롬프트 라이브러리 + 모든 General Skills 멤버십**을 함께 이용할 수 있습니다. 각각 따로 구매할 필요가 없습니다.
 
 <!-- xxd-panel-command-system:start -->
 
-모든 장군 Skills는 연 CNY 699 통합 멤버십에 포함되며 별도 구매가 필요하지 않습니다.
+### Skills가 함께 작동하는 방식
 
-| 등급 | Skill | 역할 |
+| 등급 | 포함 내용 | 역할 |
 |---|---|---|
-| **장군급** | [`xxd-panel-all`](https://github.com/nevertoday/xxd-panel-all) | 사용 가능한 번호형 Skills 탐지, 이미지·주제·용도별 추천, 번호 지정 파견, 동일 입력의 여러 스타일 시안, 이미지 폴더의 일괄 배정과 개별 작업 파견. |
-| **병사급** | `xxd-panel-NNN` (현재 001–112) | 각 번호가 고유한 원본 프롬프트와 미학만 실행해 장군이 배정한 하나의 작업을 완성합니다. |
+| **General** | [`xxd-panel-all`](https://github.com/xiaoxiaodong-ai/xxd-panel-all) | 사용 가능한 번호형 Skills를 찾고, 이미지·주제·용도에 맞춰 추천하며, 여러 스타일과 일괄 작업을 정리합니다. |
+| **Soldier** | `xxd-panel-NNN` | 각 번호가 고유한 원본 프롬프트와 미학에 따라 General이 배정한 구체적인 작업을 완성합니다. |
 
 <!-- xxd-panel-command-system:end -->
 
-### 지식성구＋회원 프롬프트 라이브러리＋모든 장군 Skills 멤버십 · CNY 699/년
+### 회원 혜택
 
-[지식성구](https://wx.zsxq.com/group/15554814142882), [XXD 회원 프롬프트 라이브러리](https://vip.xiaoxiaodong.ai/), 모든 장군 Skills 멤버십은 하나의 회원권입니다. **연회비를 한 번 결제하면 세 가지 혜택을 모두 이용할 수 있으며 추가 구매는 필요하지 않습니다.**
+1. **Xiaoxiaodong을 AI 학습 상담자로**
+   [Knowledge Planet](https://wx.zsxq.com/group/15554814142882)에서 AI 학습, 도구, 실제 프로젝트에 대해 언제든 질문할 수 있습니다. 답변과 유용한 내용을 회원 자료로 계속 정리합니다.
+2. **계속 업데이트되는 회원 프롬프트 라이브러리**
+   [XXD 회원 프롬프트 라이브러리](https://vip.xiaoxiaodong.ai/)에는 현재 약 3만 2천 개의 프롬프트가 있으며, 10만 개 이상을 목표로 계속 확장합니다.
+3. **모든 General Skills와 사용 지원**
+   하나의 멤버십으로 모든 General Skills를 이용하고, 사용 중 도움이 필요할 때 안내와 Q&A를 받을 수 있습니다.
+4. **필요성이 높은 요청을 우선 검토**
+   회원이 제안한 수요가 높고 꼭 필요한 프롬프트와 Skills는 우선 검토하고 개발합니다.
 
-[Knowledge Planet](https://wx.zsxq.com/group/15554814142882) · [Member Prompt Library](https://vip.xiaoxiaodong.ai/)
+### 가입 방법
 
-<p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD WeChat" width="280"></a></p>
+- [회원 웹사이트에서 직접 가입](https://vip.xiaoxiaodong.ai/)할 수 있습니다.
+- 또는 아래 QR 코드로 Xiaoxiaodong에게 연락하면 가입을 도와드립니다.
 
-<div align="center"><strong>붓질은 잠시 멈추고, 색은 조금 비껴가며, 감정은 남겨 둡니다.</strong></div>
+<p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="Xiaoxiaodong 연락처" width="280"></a></p>
+<!-- xxd-readme-ads:end -->
 
 ## 라이선스
 
