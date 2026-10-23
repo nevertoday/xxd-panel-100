@@ -17,6 +17,10 @@ Examples:
         --layout design-only --size 2048x2048
     compose_panel.py --audit poster.png --layout left-right
 
+Comparison modes generate only the design half by default: --plan prints its
+exact pixels, the image model draws that half alone, and this script places the
+unchanged source in the other half so the split is exact.
+
 The legacy --top and --bottom names remain aliases for --source and --design.
 Needs Pillow. If the default interpreter lacks it, run explicitly, e.g.
     /opt/homebrew/bin/python3 compose_panel.py ...

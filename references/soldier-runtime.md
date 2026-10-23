@@ -22,9 +22,19 @@ REALITY SOURCE = the uploaded photograph or other user-supplied source image
 TRANSFORMED DESIGN = the source brief's designed reinterpretation of that reality view
 ```
 
-The mode name is not a loose hint. For every requested asset, append exactly one of the four mode-specific delivery blocks below. Never send unused mode alternatives to the image model.
+The mode name is not a loose hint. For every requested asset, append exactly one of the mode-specific delivery blocks below. Never send unused mode alternatives to the image model.
 
 `top-bottom` and `left-right` always use exactly two equal 50:50 regions. That geometry is a family delivery rule and does not require a separate user request. Within each region, let the image model decide scale, crop or environmental extension, whitespace, overlap and internal layout unless the user explicitly requests more exact geometry.
+
+### Comparison assembly
+
+An image model asked for a whole comparison canvas often draws the reality half 10–100 px short; prompt wording does not fix it. Build comparisons as a **design half** by default:
+
+1. Run `scripts/compose_panel.py --plan --layout <mode> --size <WxH>` to get the half's exact pixels.
+2. Generate only the TRANSFORMED DESIGN at those pixels with the `TOP_BOTTOM_DESIGN_HALF` or `LEFT_RIGHT_DESIGN_HALF` block, giving the model the complete original source.
+3. Assemble with `scripts/compose_panel.py --layout <mode> --source <original> --design <half> --size <WxH> --out <final>`. The reality half is then the original photograph itself, cover-cropped, and the split is exact.
+
+Generate one complete canvas with the `TOP_BOTTOM` or `LEFT_RIGHT` block instead only when the source brief requires something to cross from the photograph into the design (for example Panel 341), when the user asks for one-pass generation, or when `--plan` with `--source` reports that the cover crop would keep less than 75% of the source so the model has to extend the scene. Audit every one-pass comparison with `scripts/compose_panel.py --audit` and regenerate it when the split is off.
 
 Do not add extra outer canvas regions: no header, footer, centre strip, title band, inset panel, collage, or third band. Source-required internal grids, frames, image containers and sidebars belong entirely inside the TRANSFORMED DESIGN region and must be preserved.
 
@@ -165,7 +175,7 @@ Ordinary-size choices do not multiply wallpaper outputs.
 ### Size resolution
 
 - No silent default ratio exists.
-- For `auto`, recommend a whole-canvas ratio from the source orientation, selected mode, source brief and intended use, then show the resolved ratio and pixels. Do not derive panel boxes or crop coordinates; the image model composes the selected relationship inside that canvas.
+- For `auto`, recommend a whole-canvas ratio from the source orientation, selected mode, source brief and intended use, then show the resolved ratio and pixels. Do not invent panel boxes or crop coordinates; for a comparison, `compose_panel.py --plan` derives the half from the whole canvas.
 - `source` means the source photograph's aspect for the whole requested ordinary output.
 - Exact pixels override a ratio.
 - Every distinct aspect ratio is a separate complete-canvas composition from the same source and the same verbatim style brief. Never crop one ratio from another. Multiple resolutions sharing one aspect may be exported from the highest-quality approved composition.
@@ -203,8 +213,8 @@ text character and typography remains authoritative.
 REALITY VIEW means the faithful photograph or factual scene defined by the source brief.
 TRANSFORMED DESIGN means the source brief's designed reinterpretation of that reality view.
 
-FINAL CANVAS: <resolved ratio and/or exact WIDTHxHEIGHT>
-COMPOSITION METHOD: ONE COHERENT COMPLETE-CANVAS GENERATION
+FINAL CANVAS: <resolved ratio and/or exact WIDTHxHEIGHT; for a design half, the half's own shape in words and its exact pixels>
+COMPOSITION METHOD: <ONE COHERENT COMPLETE-CANVAS GENERATION, or DESIGN HALF ONLY, ASSEMBLED 50:50 WITH THE UNCHANGED SOURCE>
 COMPARISON GEOMETRY: EXACT 50:50 WHEN TOP_BOTTOM OR LEFT_RIGHT IS SELECTED
 NO EXTRA OUTER REGION: no header band, footer band, centre strip, inset panel, collage or third band
 SOURCE-REQUIRED INTERNAL STRUCTURE: grids, frames, image containers and sidebars required by the source brief stay inside the TRANSFORMED DESIGN
@@ -215,9 +225,9 @@ Unless the user explicitly requests a colour change, do not add, replace,
 summarize, or re-plan any palette.
 ```
 
-Append exactly one of these mode blocks; do not include the other three.
+Append exactly one of these mode blocks; do not include the others. A comparison uses its design-half block by default; see Comparison assembly.
 
-Top-bottom:
+Top-bottom, one pass:
 
 ```text
 OUTPUT MODE: TOP_BOTTOM
@@ -233,7 +243,7 @@ crop, extension, whitespace and typography from the source, source brief and
 final canvas; never alter the 50:50 split.
 ```
 
-Left-right:
+Left-right, one pass:
 
 ```text
 OUTPUT MODE: LEFT_RIGHT
@@ -255,6 +265,47 @@ upper/lower language as right-side internal composition only; do not mechanicall
 rotate the source layout. Within each fixed half, decide crop, environmental
 extension, scale and whitespace from the source brief. The outer 50:50 geometry
 is fixed and must not be renegotiated for visual balance.
+```
+
+Top-bottom, design half (default for top-bottom):
+
+```text
+OUTPUT MODE: TOP_BOTTOM_DESIGN_HALF
+
+This request makes only the TRANSFORMED DESIGN half of a top-bottom comparison.
+The final canvas is that half alone: <shape in words, e.g. a wide 3:2 landscape,
+3 parts wide by 2 parts high>, exactly <WIDTHxHEIGHT>. The whole canvas is
+TRANSFORMED DESIGN with no photograph area. The source brief's REALITY VIEW half
+is not generated here: a script will later place the attached original
+photograph, unchanged, directly above this image, so this image is the entire
+design half and its top edge is the boundary between the halves.
+Do not show the source photograph, a reduced copy of it or a photographic scene;
+do not divide this canvas into upper and lower or left and right parts; do not
+frame it as a picture within a picture. Source-brief instructions written for
+the photograph half are not carried out here. Relationships the source brief
+asks for between the halves (shared colour, a fold, continuation) are made
+against the top edge. All typography stays inside this image.
+```
+
+Left-right, design half (default for left-right):
+
+```text
+OUTPUT MODE: LEFT_RIGHT_DESIGN_HALF
+
+This request makes only the TRANSFORMED DESIGN half of a left-right comparison.
+The final canvas is that half alone: <shape in words, e.g. a tall 8:9 portrait,
+8 parts wide by 9 parts high>, exactly <WIDTHxHEIGHT>. The whole canvas is
+TRANSFORMED DESIGN with no photograph area. The source brief's REALITY VIEW half
+is not generated here: a script will later place the attached original
+photograph, unchanged, directly to the left of this image, so this image is the
+entire design half and its left edge is the boundary between the halves.
+Do not show the source photograph, a reduced copy of it or a photographic scene;
+do not divide this canvas into upper and lower or left and right parts; do not
+frame it as a picture within a picture. Source-brief instructions written for
+the photograph half are not carried out here; reinterpret the brief's
+upper/lower language as this canvas's internal composition. Relationships the
+source brief asks for between the halves (shared colour, a fold, continuation)
+are made against the left edge. All typography stays inside this image.
 ```
 
 Design-only:
@@ -334,9 +385,11 @@ Immediately before generation, verify that the constructed prompt contains exact
 - If no compatible route is verified, ask the user to enable a suitable image tool or voluntarily provide an API key for the task. Never ask them to expose an existing secret, and never assert that a key is missing without a trusted sanitized result.
 - Generate finished raster imagery. SVG, HTML, CSS, Canvas, diagrams, and programmatic vector drawing are not substitutes.
 
-Use **one complete-canvas generation per output**. Give the image model the current original source, complete source-brief body, common preamble, one selected mode block, one text block and final canvas in one request; do not pre-crop the source, generate separate panels, or perform a second image-to-image style pass. Retry a failed complete canvas once from the original source by restating only a meaningful failed content or delivery constraint; never retry from the failed output.
+Use **one generation per output**: the design half for a comparison (see Comparison assembly), otherwise the complete canvas. Give the image model the complete original source, never a pre-cropped one, together with the complete source-brief body, common preamble, one selected mode block, one text block and final canvas in one request; do not perform a second image-to-image style pass. Retry a failed result once from the original source by restating only a meaningful failed content or delivery constraint; never retry from the failed output.
 
-Use `scripts/compose_panel.py` to audit the 50:50 comparison split when needed, and to assemble or preserve pixels only when generation cannot satisfy the contract or the user requires pixel-identical source preservation. The script may crop/paste/size/audit raster files; it must never invent the artwork or judge style, and its output must never become a new generation source.
+Some routes ignore the requested size and follow the prompt's stated shape instead, which is why the design-half block states the shape in words. When `configured_imagegen.py` reports `"edges_cropped": true`, the model drew a different shape and the bridge cropped its edges to fit: inspect the edges for cut text or a squeezed-in second photograph, and regenerate when anything is cut.
+
+`scripts/compose_panel.py` assembles every design-half comparison and audits one-pass comparisons. The script may crop/paste/size/audit raster files; it must never invent the artwork or judge style, and its output must never become a new generation source.
 
 For a linked wallpaper pack, generate one device image first as the visual anchor, then supply both the original source and that approved anchor to each remaining device generation. Recompose each canvas; never crop an earlier wallpaper or chain derivatives. For an independent pack, every device sees only the original source.
 
@@ -374,7 +427,8 @@ Inspect every final PNG at full size and thumbnail size. Accept only when:
 - `top-bottom` has exactly two full-width regions split 50:50 at the vertical midpoint: faithful reality above and one unified transformed design below; there is no header, footer, centre strip, inset panel, collage, or third band outside those halves;
 - `left-right` has exactly two full-height regions split 50:50 at the horizontal midpoint: faithful reality left and one unified transformed design right; it is never rotated into top-bottom, and typography never becomes a shared third band;
 - `design-only` and every wallpaper contain a full-canvas transformed design: the reality source remains reference material, and no visible area presents it as an untransformed source photograph;
-- the 50:50 comparison split is visibly correct; use the seam audit when needed to verify it, while using pixel-exact raster composition only when generation cannot satisfy the contract or the user requires pixel-identical source preservation;
+- the 50:50 comparison split is exact: a design-half comparison was assembled by `compose_panel.py`, and a one-pass comparison passes `compose_panel.py --audit`;
+- a design half contains no copy of the source photograph, no second split, and no text or subject cut off at its edges;
 - the transformed design comes directly from the current original source in one pass, not from an intermediate stylisation, another Panel output, an earlier result, or a sample; the sole exception is the explicitly selected linked-wallpaper anchor contract, which still includes the original source;
 - source-required internal grids, frames, image containers and sidebars remain inside the designed region rather than being stripped as “extra bands”;
 - the result follows `references/original-prompt/zh-CN.md`, especially its own colour, material, composition, whitespace, and typography requirements, without an outer Skill palette or added art direction;

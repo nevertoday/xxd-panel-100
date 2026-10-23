@@ -338,7 +338,8 @@ def response_image(raw: bytes, timeout: int) -> bytes:
         raise BridgeError("image_download_failed", "response") from exc
 
 
-def write_png(raw: bytes, out: Path, target: tuple[int, int] | None, force: bool) -> None:
+def write_png(raw: bytes, out: Path, target: tuple[int, int] | None, force: bool) -> tuple[int, int]:
+    """Write the PNG and return the model's own pixel size before any fit to ``target``."""
     if out.suffix.lower() != ".png":
         raise BridgeError("output_must_be_png", "output")
     if out.exists() and not force:
@@ -350,12 +351,14 @@ def write_png(raw: bytes, out: Path, target: tuple[int, int] | None, force: bool
     try:
         with Image.open(io.BytesIO(raw)) as image:
             image.load()
+            raw_size = image.size
             if target is not None and image.size != target:
                 image = ImageOps.fit(image, target, method=Image.Resampling.LANCZOS)
             if image.mode not in {"RGB", "RGBA"}:
                 image = image.convert("RGBA" if "A" in image.getbands() else "RGB")
             out.parent.mkdir(parents=True, exist_ok=True)
             image.save(out, format="PNG")
+            return raw_size
     except BridgeError:
         raise
     except Exception as exc:
@@ -410,8 +413,13 @@ def run_image(args: argparse.Namespace) -> int:
         raise BridgeError("image_request_rejected", args.command, status)
     image = response_image(raw, args.timeout)
     out = Path(args.out).expanduser()
-    write_png(image, out, target, args.force)
-    emit({"ok": True, "bitmap_written": True, "path": str(out.resolve())})
+    raw_w, raw_h = write_png(image, out, target, args.force)
+    result: dict[str, object] = {"ok": True, "bitmap_written": True, "path": str(out.resolve())}
+    if target is not None and (raw_w, raw_h) != target:
+        result["model_size"] = f"{raw_w}x{raw_h}"
+        # A different aspect means the fit to the requested canvas cropped the model's edges.
+        result["edges_cropped"] = abs(raw_w / raw_h - target[0] / target[1]) / (target[0] / target[1]) > 0.02
+    emit(result)
     return 0
 
 
