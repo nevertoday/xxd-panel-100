@@ -1,0 +1,84 @@
+{
+  "skill_description": "XXD Panel 100｜Folk-Craft Narrative Painting: retells the subject and story of a photo as a naive, folk-inspired flat narrative illustration — simplified silhouettes and large primitive forms with gently exaggerated features, flattened perspective built from height, overlap and size, supporting objects scattered like symbols, dark areas in crayon, oil pastel or soft pencil grain that is rubbed, layered and broken so paper shows through, warm white paper, a limited palette of a few lively spot colours taken from the photo, generous whitespace and a few words in a plain folk-editorial typeface with some handwriting, placed like a sign, menu or note in the scene. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-100 or asks for folk art, naive silhouette, crayon or oil-pastel narrative illustration from a photo.",
+  "short_description": "民艺叙事画：把照片讲成蜡笔颗粒剪影、少量鲜色点缀的稚拙民艺小故事",
+  "zh-CN": {
+    "name": "民艺叙事画",
+    "tagline": "把照片讲成一个有蜡笔颗粒、有生活感的稚拙民艺小故事。",
+    "look": "主体被压成简单的剪影和大块原始形体，比例和特征可以夸张，空间是平的，靠高低、遮挡和大小讲故事，旁边的小物件像符号一样散开。深色区域用蜡笔、油画棒或粗铅笔涂出，有摩擦、叠涂和断开的地方，能透出纸底，边缘带点笨拙。底子是暖白纸，颜色只取照片里几种最鲜活的颜色，小面积点在衣服、植物、食物或焦点上。文字很少，用朴素带手工印刷误差的民艺字体，偶尔配手写，像招牌、菜单或便笺一样出现在画里。",
+    "traits": ["原始化形体", "简化剪影", "平面透视", "蜡笔油画棒颗粒", "暖白纸面", "限制性鲜色"],
+    "good": [
+      "有一个核心动作或关系的生活照片：做饭的人、街边小吃摊、牵手散步的两个人",
+      "带点生活气息的场景：菜市场一角、院子里晒被子、小店门口",
+      "有清楚剪影的人物、动物和器物：骑车的人、一只鸡、一把茶壶"
+    ],
+    "poor": [
+      "需要精细五官或准确长相的肖像",
+      "以复杂透视或大量细节取胜的照片：城市天际线、机械结构、室内全景",
+      "想要儿童卡通、可爱贴纸、光滑矢量或写实插画效果的需求"
+    ]
+  },
+  "en": {
+    "name": "Folk-Craft Narrative Painting",
+    "tagline": "Turns a photo into a small, naive folk story with crayon grain and an everyday feel.",
+    "look": "The subject is pressed into simple silhouettes and big primitive shapes with exaggerated features; space is flat, told through height, overlap and size, and small supporting objects are scattered around like symbols. Dark areas are filled in crayon, oil pastel or soft pencil, rubbed, layered and broken so the paper shows through, with slightly clumsy edges. The ground is warm white paper, and only a few of the photo's liveliest colours are used, in small touches on clothes, plants, food or the focal point. Text is sparse, in a plain folk-editorial typeface with slight hand-printed errors and occasional handwriting, appearing like a sign, menu or note inside the picture.",
+    "traits": ["Primitive forms", "Simplified silhouettes", "Flattened perspective", "Crayon and oil-pastel grain", "Warm white paper", "Limited bright colours"],
+    "good": [
+      "Everyday photos with one central action or relationship: someone cooking, a street food stall, two people walking hand in hand",
+      "Scenes with a lived-in feel: a corner of a market, quilts airing in a courtyard, a small shopfront",
+      "People, animals and objects with a clear silhouette: a cyclist, a chicken, a teapot"
+    ],
+    "poor": [
+      "Portraits that need fine features or an exact likeness",
+      "Photos that rely on complex perspective or heavy detail: city skylines, machinery, full interiors",
+      "Requests for children's cartoons, cute stickers, glossy vectors or realistic illustration"
+    ]
+  },
+  "ja": {
+    "name": "民芸物語絵",
+    "tagline": "写真を、クレヨンの粒子と暮らしの気配がある素朴な民芸の小さな物語にします。",
+    "look": "主役は単純なシルエットと大きな原始的な形に押し込まれ、比率や特徴は誇張されます。空間は平らで、高さ、重なり、大きさで物語を伝え、まわりの小物は記号のように散らばります。暗い部分はクレヨン、オイルパステル、太い鉛筆で塗られ、こすれ、重ね塗り、かすれがあって紙地がのぞき、縁は少しぎこちないままです。下地は温かみのある白い紙で、色は写真でいちばん生き生きした数色だけを、服や植物、食べ物、見どころに小さく置きます。文字は少なく、手刷りのずれがある素朴な民芸風の書体に時おり手書きを添え、看板やメニュー、メモのように絵の中にあらわれます。",
+    "traits": ["原始的な形", "簡略化したシルエット", "平面的な遠近", "クレヨンとオイルパステルの粒子", "温かな白い紙", "限られた鮮やかな色"],
+    "good": [
+      "中心となる動きや関係がひとつある生活写真：料理する人、屋台、手をつないで歩く二人",
+      "暮らしの気配がある場面：市場の一角、庭に干した布団、小さな店先",
+      "シルエットがはっきりした人物、動物、道具：自転車に乗る人、ニワトリ、急須"
+    ],
+    "poor": [
+      "細かな目鼻立ちや正確な似姿が必要なポートレート",
+      "複雑な遠近や細部の多さで見せる写真：都市のスカイライン、機械、室内の全景",
+      "子ども向けカートゥーン、かわいいステッカー、つるっとしたベクター、写実的なイラストを求める場合"
+    ]
+  },
+  "ko": {
+    "name": "민예 서사화",
+    "tagline": "사진을 크레용 입자와 생활의 온기가 있는 소박한 민예 이야기로 바꿉니다.",
+    "look": "주인공은 단순한 실루엣과 커다란 원시적 형태로 눌러 담기고, 비율과 특징은 과장됩니다. 공간은 평평해서 높낮이, 겹침, 크기로 이야기를 전하고, 주변의 작은 물건들은 기호처럼 흩어집니다. 어두운 부분은 크레용, 오일 파스텔, 굵은 연필로 칠해 문지르고 덧칠하고 끊긴 자리에서 종이 바탕이 비치며, 가장자리는 조금 서툽니다. 바탕은 따뜻한 흰 종이이고, 색은 사진에서 가장 생기 있는 몇 가지만 골라 옷, 식물, 음식, 초점 부분에 작게 찍습니다. 글자는 적고, 손인쇄 같은 어긋남이 있는 소박한 민예 서체에 가끔 손글씨를 더해 간판, 메뉴, 쪽지처럼 그림 속에 나타납니다.",
+    "traits": ["원시적 형태", "단순화한 실루엣", "평면 원근", "크레용·오일 파스텔 입자", "따뜻한 흰 종이", "제한된 선명한 색"],
+    "good": [
+      "중심 동작이나 관계가 하나 있는 생활 사진: 요리하는 사람, 길거리 음식 노점, 손잡고 걷는 두 사람",
+      "생활의 기운이 있는 장면: 시장 한쪽, 마당에 넌 이불, 작은 가게 앞",
+      "실루엣이 분명한 사람, 동물, 물건: 자전거 탄 사람, 닭, 찻주전자"
+    ],
+    "poor": [
+      "섬세한 이목구비나 정확한 닮음이 필요한 인물 사진",
+      "복잡한 원근이나 많은 세부가 핵심인 사진: 도시 스카이라인, 기계 구조, 실내 전경",
+      "어린이 카툰, 귀여운 스티커, 매끈한 벡터, 사실적 일러스트를 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "لوحة سردية من الفنون الشعبية",
+    "tagline": "يحوّل الصورة إلى حكاية شعبية صغيرة ساذجة، بحبيبات الطباشير الشمعي وروح الحياة اليومية.",
+    "look": "يُضغط العنصر في ظلال بسيطة وأشكال بدائية كبيرة بملامح مبالغ فيها؛ الفضاء مسطح، تُروى فيه الحكاية بالارتفاع والتداخل والحجم، وتتناثر الأشياء الصغيرة حوله كأنها رموز. تُملأ المساحات الداكنة بالطباشير الشمعي أو الباستيل الزيتي أو القلم الرصاص الطري، ممسوحة ومتراكبة ومتقطعة يظهر من خلالها الورق، بحواف فيها شيء من الارتباك. الأرضية ورق أبيض دافئ، ولا يُستعمل إلا عدد قليل من أكثر ألوان الصورة حيوية، بلمسات صغيرة على الثياب أو النباتات أو الطعام أو نقطة التركيز. النص قليل، بخط شعبي تحريري بسيط فيه أخطاء الطباعة اليدوية، مع خط يد أحياناً، ويظهر كلافتة أو قائمة طعام أو ورقة ملاحظة داخل المشهد.",
+    "traits": ["أشكال بدائية", "ظلال مبسطة", "منظور مسطح", "حبيبات الطباشير والباستيل الزيتي", "ورق أبيض دافئ", "ألوان زاهية محدودة"],
+    "good": [
+      "صور يومية فيها فعل أو علاقة محورية واحدة: شخص يطبخ، بسطة طعام في الشارع، شخصان يمشيان يداً بيد",
+      "مشاهد فيها نبض الحياة: ركن في سوق، ألحفة تُنشر في فناء، واجهة دكان صغير",
+      "أشخاص وحيوانات وأشياء بظلال واضحة: راكب دراجة، دجاجة، إبريق شاي"
+    ],
+    "poor": [
+      "الصور الشخصية التي تحتاج إلى ملامح دقيقة أو شبه مطابق",
+      "صور تقوم على منظور معقد أو تفاصيل كثيرة: أفق المدينة، الآلات، المشاهد الداخلية الكاملة",
+      "طلب كرتون أطفال أو ملصقات لطيفة أو متجهات لامعة أو رسم واقعي"
+    ]
+  }
+}

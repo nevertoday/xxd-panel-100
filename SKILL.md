@@ -1,6 +1,6 @@
 ---
 name: xxd-panel-100
-description: "Create XXD Panel 100 raster artwork from one image or a directory batch while treating the bundled original style brief as the sole aesthetic authority. Supports one or more top-bottom, left-right, design-only, and four-device wallpaper outputs; multiple ratios or exact sizes; prompt-generated, user-exact, or text-free typography; and inline parameters. Use when the user invokes xxd-panel-100 or requests the exact Panel 100 style."
+description: "XXD Panel 100｜Folk-Craft Narrative Painting: retells the subject and story of a photo as a naive, folk-inspired flat narrative illustration — simplified silhouettes and large primitive forms with gently exaggerated features, flattened perspective built from height, overlap and size, supporting objects scattered like symbols, dark areas in crayon, oil pastel or soft pencil grain that is rubbed, layered and broken so paper shows through, warm white paper, a limited palette of a few lively spot colours taken from the photo, generous whitespace and a few words in a plain folk-editorial typeface with some handwriting, placed like a sign, menu or note in the scene. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-100 or asks for folk art, naive silhouette, crayon or oil-pastel narrative illustration from a photo."
 ---
 
 # XXD Panel 100
